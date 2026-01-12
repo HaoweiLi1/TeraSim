@@ -160,6 +160,12 @@ class SUMO2Waymo:
         """
         node_shape = node.getShape3D()
         roadedge = map_pb2.RoadEdge()
+
+        # Some SUMO nodes (e.g. geometry-less connectors) do not provide a shape.
+        # Skip generating junction geometry for such nodes.
+        if not node_shape:
+            return
+
         # Make a closed polyline by appending the first point to the end
         if len(node_shape) > 0:
             node_shape = list(node_shape)  # Convert to list if it's not already
@@ -170,6 +176,8 @@ class SUMO2Waymo:
         all_conns_polyline_start_ending_points = []
         for edge in all_conns:
             edge_shape = edge.getShape3D()
+            if not edge_shape:
+                continue
             all_conns_polyline_start_ending_points.append(edge_shape[0])
             all_conns_polyline_start_ending_points.append(edge_shape[-1])
         

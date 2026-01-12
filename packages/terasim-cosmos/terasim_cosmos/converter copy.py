@@ -60,18 +60,11 @@ class TeraSimToCosmosConverter:
         self.agent_clip_distance = self.config.get("agent_clip_distance", 30.0)
         self.map_clip_distance = self.config.get("map_clip_distance", 100.0)
         self.streetview_retrieval = self.config.get("streetview_retrieval", True)
-        self.google_model = self.config.get("google_model")
-        self.openrouter_model = self.config.get("openrouter_model")
 
         self.path_to_output = self.path_to_output / f"{self.vehicle_id}_{self.time_start:.1f}_{self.time_end:.1f}".replace(".", "_")
 
         # Initialize street view analyzer
-        selected_google_model = self.google_model if self.google_model else None
-        selected_openrouter_model = self.openrouter_model if self.openrouter_model else None
-        self.streetview_analyzer = StreetViewRetrievalAndAnalysis(
-            google_model=selected_google_model,
-            openrouter_model=selected_openrouter_model,
-        )
+        self.streetview_analyzer = StreetViewRetrievalAndAnalysis()
 
     def _load_vehicle_id_from_monitor(self) -> str:
         """
