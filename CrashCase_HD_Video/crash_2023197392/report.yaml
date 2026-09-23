@@ -1,0 +1,61 @@
+accident_id: '2023197392'
+crash_type: Single Motor Vehicle
+accident_time: 08/26/2023 02:12
+accident_location:
+  latitude: '42.2778627349985'
+  longitude: '-83.7419644996006'
+  county: 81 - Washtenaw
+  city_township: 89 - Ann Arbor
+  details:
+    distance_direction: 5 Feet N
+    full_primary_road: MAYNARD ST
+    full_intersecting_road: E WILLIAM ST
+  SUMO_LOCATION:
+    X: '134.74'
+    Y: '141.51'
+accident_weather:
+  weather: Clear
+  light: Dark-Lighted
+  road_surface_condition: Dry
+traffic_environment:
+  traffic_control: Stop Sign
+  total_lanes: '02'
+  speed_limit: '25'
+vehicle_information:
+  unit_01:
+    type: MV
+    direction: N
+    action_prior: Turning Right
+    sequence_of_events:
+    - First: 15 - Pedestrian
+    driver_injury: O
+    passenger_injuries:
+    - O
+  unit_02:
+    type: P
+    direction: ''
+    action_prior: Crossing at Intersection
+    sequence_of_events:
+    - First: 17 - Motor Veh in Transport
+    driver_injury: B
+    passenger_injuries: []
+accident_description: UNIT 1 WAS MAKING A RIGHT NB TURN ONTO MAYNARD ST. FROM E WILLIAM
+  ST. UNIT 2, A PEDESTRIAN ON A SKATEBOARD WAS CROSSING MAYNARD ST, EB IN THE CROSSWALK
+  NORTH OF E WILLIAM ST. UNIT 1 STRUCK UNIT 2 AFTER FAILING TO YIELD TO A PEDESTRIAN
+  IN A CROSSWALK. MINOR DAMAGE WAS CAUSED TO UNIT 1. \N\NUNIT 2 COMPLAINED OF KNEE
+  AND WRIST PAIN AND WAS EVALUATED BY HURON VALLEY AMBULANCE, HOWEVER, REFUSED TRANSPORT
+  TO A HOSPITAL. UNIT 2 WAS ON A SKATEBOARD VALUED AT APPROXIMATELY $600, WHICH WAS
+  DAMAGED IN THE COLLISION.
+collision_evaluation:
+  predicted_crash_type: Single Motor Vehicle
+  crash_type_explanation: Collision involves bicycle or pedestrian
+  crash_type_consistent: true
+  predicted_injury_level: Minor
+  injury_level_consistent: true
+  overall_consistent: true
+  unit1:
+    crash_type: Single Motor Vehicle
+    injury_level: No Injury
+  unit2:
+    crash_type: Single Motor Vehicle
+    injury_level: Minor
