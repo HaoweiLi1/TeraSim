@@ -1,0 +1,2629 @@
+{
+  "repository": "TeraSim",
+  "source_side": "inner",
+  "source_base_commit": "9e5a0e008b620ec3b5977fb0bbd33c0e4b3060bf",
+  "branch": "archive/20260923-inner",
+  "files": [
+    {
+      "path": ".claude/agents/map-comparison-analyzer.md",
+      "size": 6095,
+      "sha256": "b3956681df633ebc9dc19b7bc2c4923ad998e4b1ce4824d20abc8009465cb6f6"
+    },
+    {
+      "path": ".dockerignore",
+      "size": 525,
+      "sha256": "f558c8a3390381c085f2b60ee1bd9c21150b881f45e9d60739e378df159ca720"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "size": 735,
+      "sha256": "2f7e997ee4875986db1d399ddf9af79313e674fd6a669018d157e1ba39d5d97b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "size": 613,
+      "sha256": "f3e3712e17e591e273b4793fb18c541491ecd9da2edb8f36541ac781f516f249"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 975,
+      "sha256": "768db01a3eb06dcbd760320c3789c21970c28d815810d2d1c5f98baeca9765c2"
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 1893,
+      "sha256": "007491f3aa503fd43176849a2682b629bfd61f36437746b81b140c8025f2a9f6"
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1947,
+      "sha256": "6e94aaa91d69ede7fc98c5776b9d7e7b74693f6b716085593cc089f5d7e211d0"
+    },
+    {
+      "path": ".gitignore",
+      "size": 2994,
+      "sha256": "1aa9e6154413f0f4f379bc822737d75f859de19b0dba82798562a29f21fc67b9"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 2493,
+      "sha256": "b8555924ab250d429b0cfc215f891b8f8e3b985112888581686d40a9d2ad2d87"
+    },
+    {
+      "path": "CLAUDE.md",
+      "size": 7229,
+      "sha256": "bde9f2c4432836e06f8968874b82e70b7f48d751d035286509efeba002f3fe86"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/crash_diagram.png",
+      "size": 75380,
+      "sha256": "879577e529b9b6ade33c8815364891a3e125311ade5c413c8108c55e280bf58d"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/final.fcd.xml",
+      "size": 275688,
+      "sha256": "021e3bd968b73ea7e9725ac87e06457950e5ba16d8a03ad589faaab14bd47c88"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/final_bev.mp4",
+      "size": 364711,
+      "sha256": "3e15bb727da0418183bcf09b5658ca409c84302c7b3813a409d30e337aefa468"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/final_state.pkl",
+      "size": 473881,
+      "sha256": "9afcd709cbb328ce274fd0b50184106ef787d101a48c9da77a613a14c9d41748"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/initial.fcd.xml",
+      "size": 2479,
+      "sha256": "3b437b9db06b158beb61b9f1246f4c8a9fa75fbc89b1c06852a89f2f2e978afa"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/interpo.fcd.xml",
+      "size": 19794,
+      "sha256": "cedb41fcf81c5e36d15772f0dbefd24bd224458766c3c585a74eee0dff8a1d32"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/map.net.xml",
+      "size": 58813,
+      "sha256": "f2fc1a4e434d1de977435b3bbd7c094994b484de703042966aea72fc0c79921a"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/map.osm",
+      "size": 23364,
+      "sha256": "bae92dfade6d1a7545c7e798b620a83cbc6150171f03d047d8ae58d61ae4729c"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/map.poly.xml",
+      "size": 1184,
+      "sha256": "fb79e4a1286f69edc298270c1c237185bacdfc97de914382381a8f05b1713960"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/map.polycfg",
+      "size": 123,
+      "sha256": "3828a704cddd7ef384072526ec01e97c54df22a16cd050a1184f7131fdc115ba"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/map.rou.xml",
+      "size": 183,
+      "sha256": "2c5a988ec097bb43a85a254e4c1d62e5da803ff0fbe44a0cda9bf22a05bc0312"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/map.sumocfg",
+      "size": 242,
+      "sha256": "94ca3518e5ed8a7584caf95fafe16d9b7b6803e29b056047f7ea34e6ec71ff61"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/map.xodr",
+      "size": 166461,
+      "sha256": "db99f18d8606c490761f560946b7004ca0f3a6eb2f9cdc32fc79322ff6062ba0"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/merged.fcd.xml",
+      "size": 284579,
+      "sha256": "bbd3983116a6ac7e69416ba1eca98e2cecfb7062a2053e07cd71ef2fe8204d92"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/metadata.json",
+      "size": 1457,
+      "sha256": "e38424cd82d9a540207b6b27732afc4f9df9012bb5d0881ac3f875a06a65d973"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/predicted_trajectory.png",
+      "size": 247787,
+      "sha256": "28fd95599054d9e44b2aad628150a0ef4ae1a289489eb971755395186715107f"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/prevtraj.txt",
+      "size": 5773,
+      "sha256": "372a87b908d54d5994d5960950d3a061be4c45bdfa6322736fd9b307bcd5ccc3"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/report.yaml",
+      "size": 1917,
+      "sha256": "69a93d9282f8607a8d429c1d638343780c068c317387388681a909ef3a7644f8"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/simulation.sumocfg",
+      "size": 743,
+      "sha256": "9c9eebdba71f9f3e9685cda3ff28827f964e4c7be26079df5fa53f4bca9a9230"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/sumo_visualization.png",
+      "size": 336390,
+      "sha256": "0a59d6c8725b488b2ab96fabd28ba330b3db90d47d82da4f8bda94d12171c044"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/traffic.fcd.xml",
+      "size": 2593441,
+      "sha256": "e42ed7d3e5b0255c2046c7f72b1d802e5fe3b46a46adc13a7103aedffa600401"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/traffic_extracted.fcd.xml",
+      "size": 287413,
+      "sha256": "84756b6a3b50bea2ce59eafbfea784c44c0761cb5765bad9f487dca3997af5a7"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/trips.trips.xml",
+      "size": 7951,
+      "sha256": "3d35019d5f50322c4fa9fe24c5bae9fe582f7b92336c3a40e39e7769ee8c654c"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/vbd.fcd.xml",
+      "size": 295343,
+      "sha256": "2c018179fe204333e20e2259a54c5a450f8483bcf96e7b088713adc887d0c54b"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/vbd.mp4",
+      "size": 248490,
+      "sha256": "f51bebe5107257a24cde18e08df9b62053c218c233c4bdc6c3ecf65ab888e475"
+    },
+    {
+      "path": "CrashCase_HD_Video/crash_2023197392/vehicles.rou.xml",
+      "size": 8915,
+      "sha256": "2f0e402067f1932d8df7372ae490e1067668ad90b2762d3b67f3983611c6b4c0"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/crash_diagram.png",
+      "size": 14173,
+      "sha256": "9e6492f4208cf477b63d65a4a733ee6cf75997e19bd76fd7b3cda7dd3919d400"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/final.fcd.xml",
+      "size": 236228,
+      "sha256": "7820b0698ecf384d9ec13205e7a61c96352f276d347b6ed1ba2058ca6e0b0879"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/final_bev.mp4",
+      "size": 544878,
+      "sha256": "2d4f21dc0977f366640d6b36ffe2c0fb8aa2ba57962110c0f0395f61ba8df60f"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/final_state.pkl",
+      "size": 505106,
+      "sha256": "81f2e34b462e3312caafcd31b5d664196ec58c47576539fbe3d58f302b5db8c7"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/initial.fcd.xml",
+      "size": 2434,
+      "sha256": "58f1cb7795c4b62d4b52201d3bfe326e85859273425f2cc7517ada9cff341cca"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/interpo.fcd.xml",
+      "size": 19415,
+      "sha256": "8f8eacdc6a8810cc34091969abb3970f2f87613e6be6b586941bd74bcf163647"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/map.net.xml",
+      "size": 85407,
+      "sha256": "2d4a80b5df7e080506dd3edabf4cd941cdb2c2ec688aa11ffd0f6cd779d44273"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/map.osm",
+      "size": 19969,
+      "sha256": "0bafce067f923e85adf8914eea1080ad79dd359ac04634dd692329f8e4acff68"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/map.poly.xml",
+      "size": 1184,
+      "sha256": "dbf35aca51dd764d43072e4c11c0e1d4950d8095c5383862de9277c9005bd70c"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/map.polycfg",
+      "size": 123,
+      "sha256": "3828a704cddd7ef384072526ec01e97c54df22a16cd050a1184f7131fdc115ba"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/map.rou.xml",
+      "size": 183,
+      "sha256": "2c5a988ec097bb43a85a254e4c1d62e5da803ff0fbe44a0cda9bf22a05bc0312"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/map.sumocfg",
+      "size": 242,
+      "sha256": "94ca3518e5ed8a7584caf95fafe16d9b7b6803e29b056047f7ea34e6ec71ff61"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/map.xodr",
+      "size": 224321,
+      "sha256": "c96723b172118a453f68227c86b0418b182291efe08d526ff64bb5fcd22a5efe"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/merged.fcd.xml",
+      "size": 236779,
+      "sha256": "936e7a3bd0094e3999c4842282926fee1001f55229bc7fbe82ef515cf4e61207"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/metadata.json",
+      "size": 1257,
+      "sha256": "d9c3bc45eaf6c72d6395c652cbca4b4265c50d3c0a974150a54aa1649fcfe723"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/predicted_trajectory.png",
+      "size": 486126,
+      "sha256": "3f830cfad08a0e2ace6f17c6b13b2f1ebe28e72fee1c0642a8460d18a60f7374"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/prevtraj.txt",
+      "size": 5592,
+      "sha256": "015a40aab86d2a6ce3e105b8e2d017d536f8b5051fa507568b05d1359aac17d7"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/report.yaml",
+      "size": 1762,
+      "sha256": "24866555669282ddba1f3c21de222a52a5dfa13dc4122aeb455231836a9fdab5"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/simulation.sumocfg",
+      "size": 751,
+      "sha256": "147e11527632182cdf865a6af97b38016dcbb96b55e4a056b98119582a42d063"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/sumo_visualization.png",
+      "size": 559981,
+      "sha256": "05a863bf67391a658507c3be0b7b4459fd07ab35adf36f7020259f6c8a1283be"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/traffic.fcd.xml",
+      "size": 2334601,
+      "sha256": "6fe86fcd8ef3aad3962b7ef2e1dbe291cf6f552cb393af7449bfb960bb280e4f"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/traffic_extracted.fcd.xml",
+      "size": 279830,
+      "sha256": "cc2f6d788a470f3586387726993004f4ed89d8dd135be3723399a68dbf9a07dc"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/trips.trips.xml",
+      "size": 8093,
+      "sha256": "7d25cb98c7ae3c8f963915b8761633dac5c7c751b4b13268bda0a8505bd5cedd"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/vbd.fcd.xml",
+      "size": 236228,
+      "sha256": "7820b0698ecf384d9ec13205e7a61c96352f276d347b6ed1ba2058ca6e0b0879"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/vbd.mp4",
+      "size": 391699,
+      "sha256": "7b888feea10818353c49b4d367ebcddab009977ac1e4c2c9a2ae253ae965c188"
+    },
+    {
+      "path": "CrashCase_HD_Video_rendered/crash_2023174894/vehicles.rou.xml",
+      "size": 9229,
+      "sha256": "778b316f32f1679ab42336e537fcde97776bdfdde794caf80d7b0f75d2ab3c45"
+    },
+    {
+      "path": "DOCKER_SETUP_GUIDE.md",
+      "size": 8436,
+      "sha256": "3c3b2a81c3ede28109f10777ec9e2e311ebe0acc38b413a61004f87eefed7aa0"
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4200,
+      "sha256": "ec9298fe4f7949dee0542092a394aaba9b49750ccab104bfbcd2199de0c9715b"
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "README.md",
+      "size": 6768,
+      "sha256": "640d030bfcba4402d2770af9db0f96923a6b6155426734fab2b183d6ed1aaa74"
+    },
+    {
+      "path": "README_DOCKER.md",
+      "size": 8353,
+      "sha256": "40b1bd01045a3e28153d7b8be05091447d3b6476f31e58865264a4ae946bc6e4"
+    },
+    {
+      "path": "apps/deploy/CLAUDE.md",
+      "size": 3843,
+      "sha256": "6f8be5fdca3fa610dbf8c4b5f4f49d167eb1d4184a915b0385a9d3d6cb43cd74"
+    },
+    {
+      "path": "apps/deploy/README.md",
+      "size": 4988,
+      "sha256": "b0522b484a6127c630882bdbb124ee213ff11fe332e8e341b6a99054a5d933d2"
+    },
+    {
+      "path": "apps/deploy/README_docker.md",
+      "size": 4678,
+      "sha256": "de1d838d8839bf85d71a31dec11828f553b6ca522b618cc124284cd9bdd75c11"
+    },
+    {
+      "path": "apps/deploy/docker/base/Dockerfile.base.cpu",
+      "size": 887,
+      "sha256": "c86fe4fd617c317d14f747fc68f10a766709cef954b515899669c09438bb057c"
+    },
+    {
+      "path": "apps/deploy/docker/base/Dockerfile.base.gpu",
+      "size": 1293,
+      "sha256": "bbfeb494c374aeb13d0b51b65c497672c79c1130f1789aa74ea767b95cce04f1"
+    },
+    {
+      "path": "apps/deploy/docker/base/requirements.common.txt",
+      "size": 298,
+      "sha256": "7779184634debfcbddeffef10bc1fe377239562233fca15d425fb286b2ccc08e"
+    },
+    {
+      "path": "apps/deploy/docker/base/requirements.cpu.txt",
+      "size": 184,
+      "sha256": "033c0b905247698ae55aa95dcdece1c31f459933a3ac7615a07292d869681fe9"
+    },
+    {
+      "path": "apps/deploy/docker/base/requirements.gpu.txt",
+      "size": 179,
+      "sha256": "4a4ab23daa75a522e2bbc4b103c887cc11db1f5315da86da8594c56ee722e97a"
+    },
+    {
+      "path": "apps/deploy/docker/components/terasim/Dockerfile",
+      "size": 399,
+      "sha256": "0506629ca512d55e2910052072cf16a3657a7e6ed60dde1a334b7f78bc60f30d"
+    },
+    {
+      "path": "apps/deploy/docker/components/terasim_data_zoo/Dockerfile",
+      "size": 702,
+      "sha256": "13465762dc9f2c0df970d0cf9bd42c96002636e73e81f29817ac0202d9fc24d5"
+    },
+    {
+      "path": "apps/deploy/docker/components/terasim_gpt/Dockerfile",
+      "size": 682,
+      "sha256": "03366c8a3be939583d3898bec9a4b9a2656c327e57871448ffa91f94454afa95"
+    },
+    {
+      "path": "apps/deploy/docker/components/terasim_nde_nade/Dockerfile",
+      "size": 422,
+      "sha256": "81e1315f14cba6fa7ba30cd82124b5241e321b9b42c15a764340cb80adeb4d80"
+    },
+    {
+      "path": "apps/deploy/docker/components/terasim_service/Dockerfile",
+      "size": 651,
+      "sha256": "a62f7ce2f6d61b50097aa2d05fba62382eedff617d75a61eedf3fb77eb3708de"
+    },
+    {
+      "path": "apps/deploy/docker/docker-compose-terasim-carla-cosim-offscreen.yml",
+      "size": 731,
+      "sha256": "e55bc811f57f90cbdbdb290a00440cec313bbe5c352e0ea52a781e72eee4a7e8"
+    },
+    {
+      "path": "apps/deploy/docker/docker-compose-terasim-carla-cosim.yml",
+      "size": 721,
+      "sha256": "3b2aaeba36e5a74ca665f1323119985373cc5bcae6ea4cc7e03220f0402f8f6b"
+    },
+    {
+      "path": "apps/deploy/docker/docker-compose.yml",
+      "size": 318,
+      "sha256": "9da061db0c215da3b18e8b76c3ed0f1a9c4d4a949610a2b29f6d3ebd8499bb9f"
+    },
+    {
+      "path": "apps/deploy/scripts/build.sh",
+      "size": 2996,
+      "sha256": "8914bbe83df9d717196a56513253a540937408921026a70f17213862960f0680"
+    },
+    {
+      "path": "apps/deploy/scripts/download_repo.sh",
+      "size": 219,
+      "sha256": "85102eef585d56efa704ed6f47458fc65b57e21393681049d635429d0886e838"
+    },
+    {
+      "path": "apps/deploy/scripts/setup_environment.sh",
+      "size": 9825,
+      "sha256": "9c96ce9ef88dbe623fd7abe96e314febb6ee614f9562253d0c6fb6d89d8ec251"
+    },
+    {
+      "path": "configs/adversities/static/collision.yaml",
+      "size": 316,
+      "sha256": "94270544bc6c116a0de63594d33a47e4ecb8da1646da68aeebfb61dd115063be"
+    },
+    {
+      "path": "configs/adversities/static/construction.yaml",
+      "size": 149,
+      "sha256": "273d9687cb4a2a88c621844fdb65286f4905ecf3d497d74c7634f66df67ccdae"
+    },
+    {
+      "path": "configs/adversities/static/stalled_object.yaml",
+      "size": 258,
+      "sha256": "08818ad7c102e818317bc94c57041dca455ccff2c3acf6691583cbe88dd070f8"
+    },
+    {
+      "path": "configs/adversities/vehicle/highway_cutin.yaml",
+      "size": 303,
+      "sha256": "9deac433151e026e0c23131048bc10f3030e477d9c92ba6edf48b4e5f5e5eaa5"
+    },
+    {
+      "path": "configs/adversities/vehicle/highway_cutin_abort.yaml",
+      "size": 301,
+      "sha256": "bec1613142e59f4a6e819e12d8fcd065ebf7b9bd1b9db406e361062886b77b05"
+    },
+    {
+      "path": "configs/adversities/vehicle/highway_merge.yaml",
+      "size": 259,
+      "sha256": "84c92c6f94c791487d9bc1685a30e3c0f518306ffdddcbb65381f08d1e64b647"
+    },
+    {
+      "path": "configs/adversities/vehicle/highway_rearend.yaml",
+      "size": 283,
+      "sha256": "bc224cbeaaac3a3fa55a1fc11b1057e75c3315c52b7abe41c8fda7d3abf15655"
+    },
+    {
+      "path": "configs/adversities/vehicle/highway_rearend_accel.yaml",
+      "size": 272,
+      "sha256": "86b054a2f36145145c4ffa20832c7cf4afb0ff478f3d3e9d8fa27e32c36f2a04"
+    },
+    {
+      "path": "configs/adversities/vehicle/highway_rearend_decel.yaml",
+      "size": 272,
+      "sha256": "81493090a41edbba94e945de0fd5194324436e24877a10234752bd4206271962"
+    },
+    {
+      "path": "configs/adversities/vehicle/intersection_cutin.yaml",
+      "size": 300,
+      "sha256": "2c309f8bbd7490627c33ff5fe4be3b8779bd5afe5afda2b8f4f10c9e91f4c800"
+    },
+    {
+      "path": "configs/adversities/vehicle/intersection_headon.yaml",
+      "size": 312,
+      "sha256": "57df133e86ed810e6b8a434ccb007bf2596e6d3db642930846b2d936b8fdc075"
+    },
+    {
+      "path": "configs/adversities/vehicle/intersection_rearend.yaml",
+      "size": 314,
+      "sha256": "24d6c9467eaf4882a7e7ba3cc50af4df2755d93663aa454b13a78307c74e9118"
+    },
+    {
+      "path": "configs/adversities/vehicle/intersection_tfl.yaml",
+      "size": 314,
+      "sha256": "9a3cf08822f5f1df3b307077fbf2a9f9d25460e8f2ff8510c37c39ee17883c61"
+    },
+    {
+      "path": "configs/adversities/vehicle/roundabout_cutin.yaml",
+      "size": 312,
+      "sha256": "a8e8a9730130c66ecd5364ad114df6df0f0855a5748f552e53c2991a522b2fb4"
+    },
+    {
+      "path": "configs/adversities/vehicle/roundabout_fail_to_yield.yaml",
+      "size": 329,
+      "sha256": "cd4daa72933793639de7973f3c24255231eb3c253ab0f7c2a0d510325a7659b5"
+    },
+    {
+      "path": "configs/adversities/vehicle/roundabout_rearend.yaml",
+      "size": 308,
+      "sha256": "9eebc9ade56ad6aae11cd024acd496bf7d8d316b6a7b3a4057e5eec35222f1ea"
+    },
+    {
+      "path": "configs/adversities/vru/crossingstop.yaml",
+      "size": 321,
+      "sha256": "673c8696fc8372f3f840ae0f2bc664bb68f3a94fae0f328a57b51812a5505abb"
+    },
+    {
+      "path": "configs/adversities/vru/jaywalking.yaml",
+      "size": 313,
+      "sha256": "2bea767a88e696450fc2186e06c427330ccfd4a215d77b4334f75d40a28fdc06"
+    },
+    {
+      "path": "configs/adversities/vru/red_light_running.yaml",
+      "size": 337,
+      "sha256": "7a729baf50beefe867d11193b71e13a2e2d67760fa00c5d6c671f0b96c43801e"
+    },
+    {
+      "path": "configs/av_config.yaml",
+      "size": 288,
+      "sha256": "ef1d7f77837790e5bd5b01120a537dfa3a54803c189a63bc9de4752305279289"
+    },
+    {
+      "path": "configs/base.yaml",
+      "size": 586,
+      "sha256": "857a7ef18b0631f6ff980afb1f35edf26612db806e4baa92e32b37db0fb7c5b7"
+    },
+    {
+      "path": "configs/environment.yaml",
+      "size": 800,
+      "sha256": "e0a9ec218e99ce74786c37298c99ea66b92eb419c74351a43bbc17719be4fc77"
+    },
+    {
+      "path": "configs/simulation/example.yaml",
+      "size": 7164,
+      "sha256": "b7661de52cfc65d025bcfd7fcb36e199bb537dcacae181e51b51350ba4eab93a"
+    },
+    {
+      "path": "configs/visulation/example.yaml",
+      "size": 1993,
+      "sha256": "dd4d4d4a59d45206806fbcca0cca512e3363ea1d6a93ed6f4765b15077d74997"
+    },
+    {
+      "path": "docker-compose.yml",
+      "size": 1238,
+      "sha256": "ce3281745aad472a22a89b6f164ecb82b8152741000ca5c96c9b6ff4daa693bc"
+    },
+    {
+      "path": "docs/OpenDRIVE_Format_Documentation.md",
+      "size": 14953,
+      "sha256": "5852e1ad3b45805233fc5b5a31bf578b50d9bba4375da97f01e595e81060eb51"
+    },
+    {
+      "path": "docs/SUMO_PlainXML_Documentation.md",
+      "size": 11523,
+      "sha256": "abc127886e4cd1a71c371730441f51a16b8de071f1f035923bf6dc40eff4e42d"
+    },
+    {
+      "path": "docs/TeraSim_World.md",
+      "size": 3168,
+      "sha256": "82d7788a62614a508e5ddab16c384dfe95a57230442255fdd7fadf27b029171e"
+    },
+    {
+      "path": "docs/figure/TeraSim_World.png",
+      "size": 2272799,
+      "sha256": "3c4d800c131058f665edc919d6d5b69bf8943b09c5735c16d10216ba0519b5d3"
+    },
+    {
+      "path": "docs/figure/TeraSim_architecture.svg",
+      "size": 24641,
+      "sha256": "1e91a2dab4ffae8f5f71c746b35ced147e4c89991d6c41412439d8e55428b698"
+    },
+    {
+      "path": "docs/figure/logo.png",
+      "size": 46370,
+      "sha256": "cd2f362d51b652b0f684e1c0c9af4836020736b1a58c371654d10ad7ee20e0cc"
+    },
+    {
+      "path": "docs/generate_experiments_usage.md",
+      "size": 6734,
+      "sha256": "640245bd7e42820d7903a3a4ea675d5e4015de6f94efbfa5fb825b658a6d5a99"
+    },
+    {
+      "path": "examples/coordinates/av_route_example.txt",
+      "size": 341,
+      "sha256": "20ab882a99fa94bcb871578b177513c35a38e234236740bce086f8f9bc30e063"
+    },
+    {
+      "path": "examples/coordinates/us_cities.txt",
+      "size": 775,
+      "sha256": "3336c3e9da07d4907277511285a47cc7b74495d0f0ec6cbc1db833ed62513287"
+    },
+    {
+      "path": "examples/http_api/terasim_request.rest",
+      "size": 1309,
+      "sha256": "b35e3768dfbae7a14a8761e77a46ea2cdebaf53c4f6c18a438931abc4165e32b"
+    },
+    {
+      "path": "examples/maps/3LaneHighway/demand.rou.xml",
+      "size": 1095,
+      "sha256": "02a808327b3b0e9f15af6777dcfac51cee26d890b380e1b715c22e27c44d383b"
+    },
+    {
+      "path": "examples/maps/3LaneHighway/map.net.xml",
+      "size": 1295,
+      "sha256": "9820dbc1bc9f6ee1fc931ddd624eb2b45e8b11ffbe5403bfc59795b6a68ca78c"
+    },
+    {
+      "path": "examples/maps/3LaneHighway/sim.sumocfg",
+      "size": 587,
+      "sha256": "38e272aab70ddf149fb23dc4bb89594c05c4ad565ea43b3e13e8928d1f531139"
+    },
+    {
+      "path": "examples/maps/Mcity/gui-settings.xml",
+      "size": 388,
+      "sha256": "ceea57457960f1f217df129c733692badfaca02cc3246cebb94176f63294db16"
+    },
+    {
+      "path": "examples/maps/Mcity/mcity.add.xml",
+      "size": 838,
+      "sha256": "3602fbe3109ae9bd3c8eae0355952b61e2559763c505b8f129a32282a14b0fd8"
+    },
+    {
+      "path": "examples/maps/Mcity/mcity.net.xml",
+      "size": 234308,
+      "sha256": "a130ffd07068b39da92e31f502a87401b64e4e00632ca6f868cfe18c35577951"
+    },
+    {
+      "path": "examples/maps/Mcity/mcity.png",
+      "size": 9018127,
+      "sha256": "9ae5c8ef7e84945000cbdf6e282fdaca9672332c36026b7644d592c86512c38a"
+    },
+    {
+      "path": "examples/maps/Mcity/mcity.rou.xml",
+      "size": 8826,
+      "sha256": "3577214b75d3ea8b7b7144c74d1a345f0a5023c136798cb94983bc4944dcdcac"
+    },
+    {
+      "path": "examples/maps/Mcity/mcity.sumocfg",
+      "size": 811,
+      "sha256": "28e85c79ddba4b27dba703c3c928298ff8a7104ae7a8c035db95673088338cd9"
+    },
+    {
+      "path": "examples/maps/town10/parking.add.xml",
+      "size": 7743,
+      "sha256": "8c8316f71e1440b912b8f3a9867074d37df589d86e9b651c4f8ebec0556a2f70"
+    },
+    {
+      "path": "examples/maps/town10/town10.net.xml",
+      "size": 265568,
+      "sha256": "f9062b89411dfd616d9bf575a76be17da79a8cdf876af0941edaca1335eb75d1"
+    },
+    {
+      "path": "examples/maps/town10/town10.sumocfg",
+      "size": 706,
+      "sha256": "c674e3eb6ef10813c9f3f67bb3a51de3b8cf3b9f8c2b9e1a9b61647857d879bd"
+    },
+    {
+      "path": "examples/maps/town10/town10_demand_with_ped.rou..xml",
+      "size": 3470,
+      "sha256": "4d73c66ea4f989d05a47b35fa3af4a463088330cc3cda2b80a0545163d59e968"
+    },
+    {
+      "path": "examples/scenarios/Mcity_safety_assessment.yaml",
+      "size": 7196,
+      "sha256": "ae2f6ea336dc39c59b821a7de14aa608e0579273099a31265de66b27c1a1fd72"
+    },
+    {
+      "path": "examples/scenarios/Texas_highway/construction_zone.yaml",
+      "size": 4516,
+      "sha256": "7885030876be0ada8942b919ab802524e6a091dcea6707f620f65559dd0b4e9b"
+    },
+    {
+      "path": "examples/scenarios/Texas_highway/construction_zone_with_truck.yaml",
+      "size": 4842,
+      "sha256": "8099ec0adf6fba34f7221264318acf33a07e2207c0d1301e4d35224e55594f5b"
+    },
+    {
+      "path": "examples/scenarios/Texas_highway/cutin.yaml",
+      "size": 2548,
+      "sha256": "e80f2f432318100376ed18eeefac0d153e6d164bf8ed7b564335720ac04ba7f1"
+    },
+    {
+      "path": "examples/scenarios/Texas_highway/police_pullover_case.yaml",
+      "size": 2697,
+      "sha256": "dc4116dbaf1bcd5e3fd2a60f4ee2856022f52502981c72c1338533d9d2b9b4ab"
+    },
+    {
+      "path": "examples/scenarios/Texas_highway/stalled_vehicle.yaml",
+      "size": 2045,
+      "sha256": "06424054cd98bff59d74879c3dd8a8a56f7eadc98acf0429a252801c26c595cd"
+    },
+    {
+      "path": "examples/scenarios/Texas_highway/stalled_vehicle_disappear_front_vehicle.yaml",
+      "size": 2521,
+      "sha256": "cc26b273fc6399c9e60ec449fac7edf006ae47c740f81c789cbdb8b953776e08"
+    },
+    {
+      "path": "examples/scenarios/ann_arbor/urban_construction.yaml",
+      "size": 4284,
+      "sha256": "f105bcad0c7fc059149dcb8901861d0b27acf1050740568480d90cb2433f8746"
+    },
+    {
+      "path": "examples/scenarios/example_config.yaml",
+      "size": 2815,
+      "sha256": "100bf64fc5f2680ae3f3dd1e8cb85b91e93232dcdbacfcbf8a12ef643d128be1"
+    },
+    {
+      "path": "examples/scenarios/simulation_Town10CARLA_config.yaml",
+      "size": 6345,
+      "sha256": "2b68b7400c8274e544419d85dcd60cc8000253a7d6bf299e96f15d3b18044925"
+    },
+    {
+      "path": "examples/scenarios/test_config.yaml",
+      "size": 2858,
+      "sha256": "ec3e59845ae6a13450080b1c366cc61a5eeb80a739ab9387dba0512c51ed8891"
+    },
+    {
+      "path": "examples/scripts/coordinate_conversion.py",
+      "size": 1133,
+      "sha256": "6f4a0b2e6061dfd12dd397df3dcee2b27157351bea0fe7ec01dbda45ef47fb13"
+    },
+    {
+      "path": "examples/scripts/example.py",
+      "size": 1991,
+      "sha256": "1f80159858829181a6da295271a3de78a13cd59899c619e1f2b7164fe8f5a130"
+    },
+    {
+      "path": "examples/scripts/example_with_data_recorder.py",
+      "size": 2395,
+      "sha256": "c52d522fa45b95a6fba597b1e7eb31afab192726a359baaa635d65ddac96f327"
+    },
+    {
+      "path": "examples/scripts/generate_experiments_example.sh",
+      "size": 1857,
+      "sha256": "382b2cceb1b0509b89921d75ff9d64c767eb67b8c2cb2d665228fb34f91fb737"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/README.md",
+      "size": 4929,
+      "sha256": "8db4d5d7cfcba0f59778cda4d5e82f267064985ae37a0ee88320738a237906eb"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/sumo/Town01.net.xml",
+      "size": 199198,
+      "sha256": "fdec78a28480ecc5c2970d344e4df0fe9a34a805e2eb5c9d1f391d08561488cf"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/sumo/Town04.net.xml",
+      "size": 996562,
+      "sha256": "9ab06266dff35e98c76b08544518b82f5482d113dc54ac0674cb62be62f07344"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/sumo/Town05.net.xml",
+      "size": 14,
+      "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/xodr/Town01.xodr",
+      "size": 498388,
+      "sha256": "15794f0dff5911837e6059ed628618ad666b3526748b698c0be25cdef7b27f70"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/xodr/Town02.xodr",
+      "size": 616712,
+      "sha256": "a6f47c763e09cdf34e759540eef8ef9399e2d899d8eaa33054a5203bceb5494b"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/xodr/Town03.xodr",
+      "size": 2271104,
+      "sha256": "a711706c130c12b788538439fa326f95c92b2486cff810c3001e8c5e04098299"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/xodr/Town04.xodr",
+      "size": 2083394,
+      "sha256": "1f334fab0f430819a93ad9f0c4a18cec8ff0c4d208412fa77eabaacdb327360d"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/xodr/Town05.xodr",
+      "size": 2884414,
+      "sha256": "d01a356d8f5bfb2e508347d08cfaa09f4f395062187038ba8b4212141e354e37"
+    },
+    {
+      "path": "examples/xodr_sumo_maps/xodr/Town06.xodr",
+      "size": 2086305,
+      "sha256": "0e1d68c9a37a6052b95d76c8bdee32da879deac7e8a82566e8bd1d57b2fa5abc"
+    },
+    {
+      "path": "packages/terasim-cosmos/Dockerfile.gpu",
+      "size": 5827,
+      "sha256": "79b4843e3963fc0e7235ac252b79ca17cb3ee9771fe4feb4d91674846b45b057"
+    },
+    {
+      "path": "packages/terasim-cosmos/README.md",
+      "size": 6445,
+      "sha256": "933f0b538a9c2baee175aa0a45b91aafaba8aaa87825f0180df1cd08fdfb0c76"
+    },
+    {
+      "path": "packages/terasim-cosmos/README_DOCKER_GPU.md",
+      "size": 9650,
+      "sha256": "677332917c1d0fb276e40cd7f31497d252e25e34e8cdfb4aafafa39b8758598f"
+    },
+    {
+      "path": "packages/terasim-cosmos/docker-compose.gpu.yml",
+      "size": 1689,
+      "sha256": "aecd96131117e529a1135cc2c909d422e65774e3ac64f0683336c870bb6c1b75"
+    },
+    {
+      "path": "packages/terasim-cosmos/pyproject.toml",
+      "size": 946,
+      "sha256": "59c6717e7e6f3a1506aa9fec9912190e0b2fc9ed3597b4841799862d1d4907f9"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/CLAUDE.md",
+      "size": 11616,
+      "sha256": "accb23a2cb74734170fd2898b856750d62e7df15be52f604be4a4227b55c0031"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/__init__.py",
+      "size": 413,
+      "sha256": "078e19ae161376b1e2ed1347c62ea01354f85e7f5af121b039b87b4adc57e73d"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/default_ftheta_intrinsic.tar",
+      "size": 20480,
+      "sha256": "054ac0a0d93b24870f31714cd16dbabc373e54442677382edc2f3f9761c5d86e"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/ftheta_intrinsic/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.tar",
+      "size": 20480,
+      "sha256": "6ec34dc56d96bde63ab72a37589ac938339b7610dbf084efeb74ea9f6e42ec12"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/ftheta_intrinsic/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.ftheta_intrinsic.camera_cross_left_120fov.npy",
+      "size": 216,
+      "sha256": "58fbef0f5e841c8f174846f9703dda60854da989d70b48fab42ff4ab5c609785"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/ftheta_intrinsic/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.ftheta_intrinsic.camera_cross_right_120fov.npy",
+      "size": 216,
+      "sha256": "a0b7d46f36cf31c6af5dce5f006dee038b02ae411bced8737b2f9526a6a29b39"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/ftheta_intrinsic/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.ftheta_intrinsic.camera_front_tele_30fov.npy",
+      "size": 216,
+      "sha256": "82e747e238b8f4c9d9225d256c7c70d713fd2c0bec78c3e507adb7b1614d2f7c"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/ftheta_intrinsic/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.ftheta_intrinsic.camera_front_wide_120fov.npy",
+      "size": 216,
+      "sha256": "9de194bd8ffe4cf20c13d5f15648a14a79a9f39490386a9710f726eee95de3d6"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/ftheta_intrinsic/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.ftheta_intrinsic.camera_rear_left_70fov.npy",
+      "size": 216,
+      "sha256": "f9107ec54337da52237f5dc4b04fb44457e6b9c2e5de3bd9d2bd69d003f2e802"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/ftheta_intrinsic/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.ftheta_intrinsic.camera_rear_right_70fov.npy",
+      "size": 216,
+      "sha256": "0e29cab217a5fbb19972765c620d301a0d185b4db4eeb8eb867cb9cf70c019a6"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/ftheta_intrinsic/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.ftheta_intrinsic.camera_rear_tele_30fov.npy",
+      "size": 216,
+      "sha256": "35d656ed1f4af147eeef7c5b1fbca88f282d9266e851472290794df3349e9b06"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/pose/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.tar",
+      "size": 4311040,
+      "sha256": "94a5ea569ff23f38ebe5f50951aba9637dc0214a3ffdc92d3db401cb422334d8"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/example/vehicle_pose/2d23a1f4-c269-46aa-8e7d-1bb595d1e421_2445376400000_2445396400000.tar",
+      "size": 624640,
+      "sha256": "761c2f625e46025c4be621847b51b2afb66c59934d120ebb63aaaa35c25a6374"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/ftheta.pdf",
+      "size": 89139,
+      "sha256": "b743f48797575c9c663cbf7ef9048f0e64959eaced9994c6057c168633875213"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/run_hdmap_multi_view_template.sh",
+      "size": 783,
+      "sha256": "1bbf211703ae0377eb7a239da30b046dc9d6a5cd07ea0a2c1e04c8636076f968"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/run_hdmap_single_view_template.sh",
+      "size": 621,
+      "sha256": "ecbf4b64eb76cfe3aaf88ec233137b4ca13ddc87d90428943d112bc0e3b0f800"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/slurm_cosmos_multi_view_template.slurm",
+      "size": 619,
+      "sha256": "b70e8cb2b3e7e6aabc691c1662549039a407ae7e0e3f4ef3453672d44d321a1c"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/slurm_cosmos_single_view_template.slurm",
+      "size": 620,
+      "sha256": "d468fcc788bc6a2b4eb373ef5f8f747542c23368dcae8134725a921d0ad4509f"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/waymo_camera_name_to_camera_to_vehicle_10017090168044687777_6380_000_6400_000.npy",
+      "size": 1239,
+      "sha256": "31753a8f76f7c376f2ea0e6e6ce851c1354706808f7ce5f3506210d5390724a0"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/waymo_caption.csv",
+      "size": 512982,
+      "sha256": "188d9f848181663c4aa65896f9c1d45f053d672f6b60a25c3c49d5faf4505a8f"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/assets/waymo_pinhole_intrinsic_10017090168044687777_6380_000_6400_000.npy",
+      "size": 998,
+      "sha256": "49105070d7b70b38367136e98f89065f66812086f4dab96cc043a1d50b84a0a9"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/dataset_rds_hq.json",
+      "size": 374,
+      "sha256": "43eb8899d6c6df8c67dcf633374a15c94926a73fbcf4256b5dbb43d07f65d2e7"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/dataset_rds_hq_mv.json",
+      "size": 840,
+      "sha256": "e46f8374caa0d035a7980facb82033630c23dd2b4978e9d452ef2975acf85ca1"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/dataset_rds_hq_mv_terasim.json",
+      "size": 772,
+      "sha256": "cc378a74dafafd1d49b41779a3bc56663f237c7446bc28f528ae79c49f8ab4c5"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/dataset_waymo.json",
+      "size": 478,
+      "sha256": "33e952dcae95a545c445b3c730b8b301490aa0891b8b66952abe0e51d336671f"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/dataset_waymo_mv.json",
+      "size": 1022,
+      "sha256": "655b54c3741a3852a748e799bfd254423278eba1178a13ec72c7c6320dabe91e"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/dataset_waymo_mv_pinhole.json",
+      "size": 747,
+      "sha256": "14be10c09d6212a81f429b3cdf9676ff4eff140b5a7a269b83a1416e98901cbf"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/dataset_waymo_mv_short.json",
+      "size": 732,
+      "sha256": "68b7b75238b3c50755fdf4201d687028b30effebe568526a52124bcfd545baab"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/default_ftheta_intrinsic.tar",
+      "size": 20480,
+      "sha256": "73e07c12a6b60ac17aafcd086e8979ed94cf0262d50c616c6c5032d818789bdb"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/default_ftheta_intrinsic/original_calib.ftheta_intrinsic.camera_cross_left_120fov.npy",
+      "size": 208,
+      "sha256": "942ff744c3bc222fde81ed535900baed330688b732624333fd1c193301f5e0d9"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/default_ftheta_intrinsic/original_calib.ftheta_intrinsic.camera_cross_right_120fov.npy",
+      "size": 208,
+      "sha256": "2cc213b57d5bebeb539cdb1e4b73a73f8deafe2413e2381de383da9c924ceae9"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/default_ftheta_intrinsic/original_calib.ftheta_intrinsic.camera_front_wide_120fov.npy",
+      "size": 208,
+      "sha256": "92393966a61b4785442994d12c486481b7bf9d9608f2cebff42e9c81eeae6be1"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/default_ftheta_intrinsic/original_calib.ftheta_intrinsic.camera_rear_left_70fov.npy",
+      "size": 208,
+      "sha256": "ac65cde2d26b28b713ebf3699d80095a2363a4ccc4f58c86bdf0e9597506e6fb"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/default_ftheta_intrinsic/original_calib.ftheta_intrinsic.camera_rear_right_70fov.npy",
+      "size": 208,
+      "sha256": "4647b17902f96913532c59b77481e2705fe9a04c424dd6dd50e7479c8f0ce578"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/default_ftheta_intrinsic/original_calib.ftheta_intrinsic.camera_rear_tele_30fov.npy",
+      "size": 208,
+      "sha256": "6d9c4a2c09395a2be2a9aab1e55b98d89436fed804ea68ac58de26d062e10d69"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/hdmap_color_config.json",
+      "size": 313,
+      "sha256": "092d6cc5a4b550151d9ba945d843bc84591bd440e06e389df775e86ef6db098d"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/hdmap_type_config.json",
+      "size": 274,
+      "sha256": "29def7bc6606f23ad9fa57e74c9662936aa4dd4499675252d21896f4269f43db"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/waymo_all.json",
+      "size": 40918,
+      "sha256": "bd17ecc57d0a60ec5d2fe1598af85696755f54711b1dded42f075e5b4ad4e7d3"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/config/waymo_good_hdmap_alignment.json",
+      "size": 29084,
+      "sha256": "ff47d732ad98e15bc4f21803001207b679dcc81627498e296eff11d5cf680c3b"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/convert_terasim_to_rds_hq.py",
+      "size": 29621,
+      "sha256": "55b91bda5a43cfded2f46673bc422852f97ba163df2d3309ac02d1be2cb08a52"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/convert_waymo_to_rds_hq.py",
+      "size": 22178,
+      "sha256": "796319e95cb84fbb52da1b19d5eadeb3321db344a4dcbfc59275bfca2f6461da"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/converter copy.py",
+      "size": 7202,
+      "sha256": "262307dd5fd1c55104b6ecf91d26a8d6111401fde93ec465c73f96da32ecd360"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/converter.py",
+      "size": 7617,
+      "sha256": "88d02a5421d35d02d6d9b2b241cae00708d577fc87bae949566af26f5b81cc9a"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/create_t5_embed.py",
+      "size": 6523,
+      "sha256": "a27b1830d528f049dbf31a4b27b43fe8429821b7853a2291555112f047d84d4e"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/create_t5_embed_mv.py",
+      "size": 6237,
+      "sha256": "40777fbe127bcbe8689ce67a17ef6aa2252f6a9e2551ff55d0090bbd1403208c"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/render_from_rds_hq.py",
+      "size": 26083,
+      "sha256": "8a42d2aa258d8dc78e385f6fe2a16549ae573ac39b2014fd4ae86a80a2536f66"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/street_view_analysis copy.py",
+      "size": 7111,
+      "sha256": "89fffae8dba4895f8e6dd59caae71b71f03b53ec8d91a8c9f757407aa23ee31c"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/street_view_analysis.py",
+      "size": 13985,
+      "sha256": "27ca6d0a7ba1de0d99d81a615e4ac27ce37c89a5b201eef1b64f96129b037c82"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/animation_utils.py",
+      "size": 31968,
+      "sha256": "974d8818285d90ad0cfaa28b4e58c40f8bc25c00e341e329587904d8ca704c10"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/bbox_utils.py",
+      "size": 18526,
+      "sha256": "a30ac8587453729eba0325a4aebac7820e1229d285b906182dbcd2d024957597"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/camera/base.py",
+      "size": 19875,
+      "sha256": "d28bd5439d5eb6b4231e893a3d1a5fdd96644225dd425a7622ae9473bff088d7"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/camera/ftheta.py",
+      "size": 27929,
+      "sha256": "9d1cb2a0590b77538959d9531f78bc10c092d9c00b59e52c24b9fb812616bb10"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/camera/pinhole.py",
+      "size": 6748,
+      "sha256": "8e3ee730830f7f0c9d87b7b3c29773a744d2ee724a9fb998df57c88f6807edb1"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/deepmap_utils.py",
+      "size": 2029,
+      "sha256": "2e9f857b94c8b4b7904bba204ff13badf2f6398ca7a794ce9ac7a7c0e549076a"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/minimap_utils.py",
+      "size": 11403,
+      "sha256": "3705761485a8e3dbcbda9211efcc634787e8469d9d4b9db3d54255ed0f8b57fe"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/pcd_utils.py",
+      "size": 47282,
+      "sha256": "8d7a3f0764cab4ef9eee98e1e292668a6b449b97f9f977e9df14c2f88b3769a3"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/post_training_utils.py",
+      "size": 3231,
+      "sha256": "eab90320f421b50b91b54110928794d2f025eb69f02bd4f20ecfc5863956e08b"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/ray_utils.py",
+      "size": 1180,
+      "sha256": "70b3f685b7ac98d6c9a921d5f2d61a82670f52ad8977a9272d8e104414f79273"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/utils/wds_utils.py",
+      "size": 1370,
+      "sha256": "1a48a538804ab8e3685282833a94e71525011bac3e3c20cd971c1f9cea31b78a"
+    },
+    {
+      "path": "packages/terasim-cosmos/terasim_cosmos/visualize_rds_hq.py",
+      "size": 24199,
+      "sha256": "2c12e84e7a394a4c7cd836e7325295e0327162474de2193d64c2ec5ce94829d3"
+    },
+    {
+      "path": "packages/terasim-datazoo/README.md",
+      "size": 4187,
+      "sha256": "c0baaeb22d2aea8a87dc5c4ce3472a94482aaf0df5b2381de2dbd3418a363c8a"
+    },
+    {
+      "path": "packages/terasim-datazoo/pyproject.toml",
+      "size": 643,
+      "sha256": "6d73c4d903a620e7a909239d238f31e522c49cc9a4cc0349715bf9c42c72427d"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/__init__.py",
+      "size": 25,
+      "sha256": "e9bd603400da8d63668c2d0ab385b71eb6e23295bfd76e8c697d9db5859f1f8a"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/core/intersection.py",
+      "size": 1553,
+      "sha256": "61b7f1a6ecd029da6b35c4bea235edf36565744c32f036e743fc942b5ec8838f"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/core/osm.py",
+      "size": 546,
+      "sha256": "f9e7cad837ece42ea6797d2bae2a5b15f9dc67b3860fb3f91aa959dfb2a3dc15"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/core/sumo.py",
+      "size": 8335,
+      "sha256": "613142854a1085cbc71ef1bd2ea8c071398d10db27b16a4cd51d20663bff4501"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/core/waymo.py",
+      "size": 5064,
+      "sha256": "81e93a94d557a4cd4c8da1432fda4f4770990c171e8c9cca7645be00dff191d2"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/__init__.py",
+      "size": 121,
+      "sha256": "a4d7c0361289edceef7913f8c77b5fe9129ef2393b4f8403d296ee281725cb7c"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/osm2waymo.py",
+      "size": 12574,
+      "sha256": "5156bb90a551d0391421d1ec37819c2d3e9ce966c449ad9b27b5349922cdbe92"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/__init__.py",
+      "size": 49,
+      "sha256": "f4c70dc8257fc1d6a25bc0055d88d9e375f80802d26d622b047ec72b67640c8b"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/osmic.py",
+      "size": 1900,
+      "sha256": "d49ce1846135333ee3fcefff312c86527e0cef13003356cbd55cc01e15e87703"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/osmizer.py",
+      "size": 2989,
+      "sha256": "419caf303926dfba1b5746be087f6c5730218725561601a2a75ddd4ed8b397db"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/scenario_processor.py",
+      "size": 590,
+      "sha256": "9da70889c943f68523ff3aa3f0c350fd5f1fa9e05b887aa6e9e9428a9a3f5055"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/sumonic.py",
+      "size": 20299,
+      "sha256": "d164d876520b76d59d7fca3cb72126f498ffb1fdd2696c4aa4b52beea0cf847c"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/sumonic_tlsgen.py",
+      "size": 11962,
+      "sha256": "3094f699587c8ec3bf2cb32e2432f8dab457a7d46ee1dc2522493aeef4125b6a"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/sumonizer.py",
+      "size": 86889,
+      "sha256": "c8c18e45b3b8864be01931687f746388670568dbde88116daa32970c4a574064"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/traffic_lights/__init__.py",
+      "size": 82,
+      "sha256": "e1210f3803122107969dab3b31047986244394036dcd29c2e62b65c4e7610ae9"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/traffic_lights/metrics.py",
+      "size": 4249,
+      "sha256": "63dee6be001240deb85574e8348650657e06022b1564d467bf7ff04dcffb162d"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/traffic_lights/tlsgenerator.py",
+      "size": 35302,
+      "sha256": "8ea2061398a883d447633a4fa969b556483116093582015c47320bef097037d8"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/traffic_lights/utils.py",
+      "size": 12084,
+      "sha256": "69c0d6366f4bb0d9bee02ea1e3459f55ac5165db3f162f4a6f2e6695c34b22f2"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/waymonic.py",
+      "size": 5310,
+      "sha256": "2307aa21e6cfc32fb8361451dd1b8becb95ef95c1226351042b4fc7027ba986d"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/waymonic_tlsgen.py",
+      "size": 16582,
+      "sha256": "6982c6460029d777b2296de3dabc55a3b74fa9810edfcfafdfc6e4fa321fa805"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_processor/waymonizer.py",
+      "size": 27630,
+      "sha256": "f092598d1150b0fdc3c8a81e3242d8a155cc7ed9e68419917fe5f6d7635bd9cc"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/scenario_visualizer.py",
+      "size": 18265,
+      "sha256": "e0b238fc0b32dc66163c5a6fbb39f1e0082deb4a51ef70576a13b91e645dc492"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/processors/sumo2waymo.py",
+      "size": 23610,
+      "sha256": "0ebc71139f053a9d4c07756cfd07c9280f6b7b2b73b347df667cf41b8343b9c1"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/utils/__init__.py",
+      "size": 88,
+      "sha256": "a3f2419b6a0df23043284c259357c7b90bdb215069bb9673650af9c80aa96785"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/utils/gen_sumocfg.py",
+      "size": 3828,
+      "sha256": "03c4e0c95fec4eddedb82b3c8344fc04357ca808d225c52a5e99f4e6627c2b17"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/utils/generic.py",
+      "size": 3054,
+      "sha256": "8ce726c67399003c8430b0d71960558a8832fcd58c94d7bbf3507c42801d1668"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/utils/geometry.py",
+      "size": 12732,
+      "sha256": "b3a97c6afc957b4e03bf43509724429a3461035de323fdb2a7c67537fd54cb08"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/utils/pack_h5.py",
+      "size": 46950,
+      "sha256": "762587cf3740b1b121724e723f43004054386e7adc16ceef8fd7ffdafb7650bd"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/utils/pack_h5_womd.py",
+      "size": 17338,
+      "sha256": "da30266afe7b86a4fd5f1b505ceef3f6d844a38fad0053838e78ed9acf8ca571"
+    },
+    {
+      "path": "packages/terasim-datazoo/terasim_datazoo/utils/transform_utils.py",
+      "size": 6602,
+      "sha256": "d533290a650e38f379a86332d9ddabec93dd646ae58c8b99eb92545f5df2dde0"
+    },
+    {
+      "path": "packages/terasim-envgen/README.md",
+      "size": 22092,
+      "sha256": "dd730f32d037f86cbf887bf8b9584fae1b49fc528a54771e9b99c402c88e428f"
+    },
+    {
+      "path": "packages/terasim-envgen/pyproject.toml",
+      "size": 1441,
+      "sha256": "6a19bdd522d9ac16648493edee7953b97dfb255dac7c3dc4dd7a6c250c5b6ec0"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/__init__.py",
+      "size": 3511,
+      "sha256": "deccf2a4299322214fafe1a42cd8660e319bd54c7ccae319fe4fb5f4bf117afa"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/static/collision.yaml",
+      "size": 316,
+      "sha256": "94270544bc6c116a0de63594d33a47e4ecb8da1646da68aeebfb61dd115063be"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/static/construction.yaml",
+      "size": 149,
+      "sha256": "273d9687cb4a2a88c621844fdb65286f4905ecf3d497d74c7634f66df67ccdae"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/static/stalled_object.yaml",
+      "size": 258,
+      "sha256": "08818ad7c102e818317bc94c57041dca455ccff2c3acf6691583cbe88dd070f8"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/highway_cutin.yaml",
+      "size": 303,
+      "sha256": "9deac433151e026e0c23131048bc10f3030e477d9c92ba6edf48b4e5f5e5eaa5"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/highway_cutin_abort.yaml",
+      "size": 301,
+      "sha256": "bec1613142e59f4a6e819e12d8fcd065ebf7b9bd1b9db406e361062886b77b05"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/highway_merge.yaml",
+      "size": 259,
+      "sha256": "84c92c6f94c791487d9bc1685a30e3c0f518306ffdddcbb65381f08d1e64b647"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/highway_rearend.yaml",
+      "size": 283,
+      "sha256": "bc224cbeaaac3a3fa55a1fc11b1057e75c3315c52b7abe41c8fda7d3abf15655"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/highway_rearend_accel.yaml",
+      "size": 272,
+      "sha256": "86b054a2f36145145c4ffa20832c7cf4afb0ff478f3d3e9d8fa27e32c36f2a04"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/highway_rearend_decel.yaml",
+      "size": 272,
+      "sha256": "81493090a41edbba94e945de0fd5194324436e24877a10234752bd4206271962"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/intersection_cutin.yaml",
+      "size": 300,
+      "sha256": "2c309f8bbd7490627c33ff5fe4be3b8779bd5afe5afda2b8f4f10c9e91f4c800"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/intersection_headon.yaml",
+      "size": 312,
+      "sha256": "57df133e86ed810e6b8a434ccb007bf2596e6d3db642930846b2d936b8fdc075"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/intersection_rearend.yaml",
+      "size": 314,
+      "sha256": "24d6c9467eaf4882a7e7ba3cc50af4df2755d93663aa454b13a78307c74e9118"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/intersection_tfl.yaml",
+      "size": 314,
+      "sha256": "9a3cf08822f5f1df3b307077fbf2a9f9d25460e8f2ff8510c37c39ee17883c61"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/roundabout_cutin.yaml",
+      "size": 312,
+      "sha256": "a8e8a9730130c66ecd5364ad114df6df0f0855a5748f552e53c2991a522b2fb4"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/roundabout_fail_to_yield.yaml",
+      "size": 329,
+      "sha256": "cd4daa72933793639de7973f3c24255231eb3c253ab0f7c2a0d510325a7659b5"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vehicle/roundabout_rearend.yaml",
+      "size": 308,
+      "sha256": "9eebc9ade56ad6aae11cd024acd496bf7d8d316b6a7b3a4057e5eec35222f1ea"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vru/crossingstop.yaml",
+      "size": 321,
+      "sha256": "673c8696fc8372f3f840ae0f2bc664bb68f3a94fae0f328a57b51812a5505abb"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vru/jaywalking.yaml",
+      "size": 313,
+      "sha256": "2bea767a88e696450fc2186e06c427330ccfd4a215d77b4334f75d40a28fdc06"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/adversity/vru/red_light_running.yaml",
+      "size": 337,
+      "sha256": "7a729baf50beefe867d11193b71e13a2e2d67760fa00c5d6c671f0b96c43801e"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/conf/config.yaml",
+      "size": 381,
+      "sha256": "3a85a25a5c141fd8f1d95a98e8bb6d6b9eeeba595c9960ec133862aa7dc3c037"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/config.yaml",
+      "size": 539,
+      "sha256": "5bfadbec3d02dcf249e126f873429b8f07253f75212bd378f818393ed6482a84"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/create_construction_zone.py",
+      "size": 3312,
+      "sha256": "3639ed83f3605bea2cc92b6d11980fa9d8c5a877939b20884e1025ac196f163f"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/create_pull_over_case.py",
+      "size": 12874,
+      "sha256": "7ee5d1eb16c9c65b7d461e40df181cea0115c956460ee5920b7774f261c52f98"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/integrated_generator.py",
+      "size": 14793,
+      "sha256": "a5e837179fc0e39cf4ddd7e9abcf382958c859d07e5a4622526e6ddc0bf93ae9"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/llm_parser.py",
+      "size": 9355,
+      "sha256": "5407f149cf3f6ceb896e7fd723f7a6b7f21cd1b0478968feae8905b598422240"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/load_data_fiftyone.py",
+      "size": 8757,
+      "sha256": "33c50a9216a8d97356a7bab24599e4cdd5761b5ad16f0e5029e44366f7f9530e"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/map_converter.py",
+      "size": 8389,
+      "sha256": "fdf4027d3590ac45afa329615276337a036901740b72a38d9b9a8509e80dbbb5"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/map_searcher.py",
+      "size": 34590,
+      "sha256": "cef97cb8867aa86970bd6c28394c7894572adf2981a546250ed33ca3bfe69103"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/openscenario_converter.py",
+      "size": 20547,
+      "sha256": "fbd562e187936b66547d914271f8b4f0b79e0a4e90fc32fba5116fbab4e1d4bb"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/terasim_corner_case_generator.py",
+      "size": 10956,
+      "sha256": "0753a0aed34932588e127a46d3427ddc7d52c775a74fc3cdae5a81311d76f3af"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/core/traffic_flow_generator.py",
+      "size": 43843,
+      "sha256": "0f34c7e8c43503d92783d7bda072ef701b4302f8feef4a4b1e226983defe27c2"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/mcp_tools/__init__.py",
+      "size": 1238,
+      "sha256": "2808e182af83e8d1488c96f4731cce241023a5da7e9fcac20b3c82fa22217888"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/mcp_tools/auto_wrapper.py",
+      "size": 6897,
+      "sha256": "5205f183b53f2d77bbc97fbd2a9e82cf1f5654c0f3a2e7267fbee122dfe61b35"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/mcp_tools/tool_config.py",
+      "size": 5756,
+      "sha256": "896aabcd4e3fdbe4113793d58830012851ecb9e9f55b0f8add1cdf065139f764"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/utils/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/utils/find_osm_center.py",
+      "size": 5042,
+      "sha256": "f5c7a121b5360a8a1dec108b267ff09634bb29dbb122c88cbd81af53c85c6734"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/utils/metadata.py",
+      "size": 3230,
+      "sha256": "ea19a2cf302d706d6a08b3e02964a86d87f140561308e53bb97b79fba40bc98f"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/utils/query_intersection.py",
+      "size": 6981,
+      "sha256": "f9ebd330727984f236b72cef4b4a1fcd898231ee9976fb64cf9ba77e4d578e3e"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/utils/query_road.py",
+      "size": 9363,
+      "sha256": "ef8d3aafcd337813e6015f996791b0102f2e69b616a206926b4559c8795ed7b4"
+    },
+    {
+      "path": "packages/terasim-envgen/terasim_envgen/utils/randomTrips.py",
+      "size": 57986,
+      "sha256": "a319239fd90b38eaee0bca8aa872c435338275800d2bc77a24e5dbe5fc4c3536"
+    },
+    {
+      "path": "packages/terasim-nde-nade/LICENSE",
+      "size": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "packages/terasim-nde-nade/README.md",
+      "size": 5561,
+      "sha256": "ac4d5f940347baa8160c0e2cf229f49423a37d6e30dc944bbbc0cbe1fd085b61"
+    },
+    {
+      "path": "packages/terasim-nde-nade/pyproject.toml",
+      "size": 1081,
+      "sha256": "9e68151d20f81f76c474d075a98a012974db5829aa34ba4069982eebe73e8e80"
+    },
+    {
+      "path": "packages/terasim-nde-nade/setup.py",
+      "size": 867,
+      "sha256": "43de1c42f48cd38e2112b0c64a689e85d5db6379003be9b9d9828a4bcaf7cac9"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/__init__.py",
+      "size": 781,
+      "sha256": "ef5817ca42ff5dd44a3951dbf13007887bf2089547a6f473d43c979ec2b49780"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/static/__init__.py",
+      "size": 448,
+      "sha256": "668016f9d20cf4e5b5a201ac7a1dd62329170640fe07b910aaf58b9b07591d88"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/static/collision.py",
+      "size": 5926,
+      "sha256": "1d9415d1f2a45afcab672d70e008c43276e216e8b522ab247c91e7c753c7816a"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/static/construction.py",
+      "size": 25041,
+      "sha256": "0ece0bc0b194914f43dd9642b99e4db0adbe90dda5dc82d5a7a4f8865b6aa110"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/static/dynamic_object.py",
+      "size": 2063,
+      "sha256": "074497eddbadac16d369e95c299552ac0899b29c1e645463e4bc68820bad4a23"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/static/stalled_object.py",
+      "size": 9608,
+      "sha256": "b4d782c8ab34cfbd1a2a94f1f0806151e832fe7d019dcf3b8c29d80e9115a63e"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/static/urban_construction.py",
+      "size": 38458,
+      "sha256": "a7a8c8fc6c8fc8f479225ee749d0849e97991e40e735070d20a3dbdcc743e5be"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vehicles/__init__.py",
+      "size": 555,
+      "sha256": "db5c7a17e4f349adf6eb73d6c88fe979520a53b45997aaa3f03068091d3d7070"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vehicles/follower_adversity.py",
+      "size": 1912,
+      "sha256": "1eb771b2991cb06bcfed46fa90ba7ea8c56bbc57439f5f5e6bb78042abf63d52"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vehicles/headon_adversity.py",
+      "size": 1908,
+      "sha256": "24d38f1a9c2f3e543edf8a4138679202af4b83d8d019d067fe9fbb103cb9c345"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vehicles/lanechange_adversity.py",
+      "size": 1983,
+      "sha256": "aa0c44c79f3edb3288605fc943187a1b10d4e86f8eba660af07a386da32e4083"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vehicles/lanechangeabort_adversity.py",
+      "size": 2151,
+      "sha256": "d980c43ce95216ad10cf3b1e77f9c3a021af99d29b57c25489483a09919ccb78"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vehicles/leader_adversity.py",
+      "size": 1902,
+      "sha256": "a5094ef853258748f62e8f666ad137fb68ddc2d4b8cbe73271498b840b814876"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vehicles/merge_adversity.py",
+      "size": 3123,
+      "sha256": "795527abddd3f6e97a7d33af64ab1806606a5794cda7a780c40214ab400f4067"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vehicles/trafficrule_adversity.py",
+      "size": 1904,
+      "sha256": "26f0e03ad967fadef1c4bafc0b27e8499c8b4978dc4468a861e7167951865ab1"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vru/__init__.py",
+      "size": 278,
+      "sha256": "501be2f3f2fe92c6db7287b9bf188d1c6d08aa59967322fc27e5d262aec4acb5"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vru/jaywalking_adversity.py",
+      "size": 8393,
+      "sha256": "e60f1b89bc2c3e8970e7e6d797ea2858cad2fd5a0e3e70e090087c3fddd0f9e9"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vru/runningredlight_adversity.py",
+      "size": 6523,
+      "sha256": "ebe66b595649ea2e8cd8f95c2242f9233a24f56daac77ff9bfefd0d98f581d2c"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/adversity/vru/stopcrossing_adversity.py",
+      "size": 4434,
+      "sha256": "b40ef8bfc694ef53bfbf7c623724aed50e3c4d82dd80ac0d690ce1812e6f5c86"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/envs/__init__.py",
+      "size": 136,
+      "sha256": "af7927f6c203266d9ed87443e8e8a8fab8f8bb39111ab0dd891a174bab54f7a1"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/envs/nade.py",
+      "size": 28810,
+      "sha256": "ad6f3ad23f8bef6a9ab0acc9374ef7cc216b6e06c07e6a47d406078d23475ba1"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/envs/nade_with_av.py",
+      "size": 44453,
+      "sha256": "dda509db01eecb74fbbe289dcfe101617f8f5bdcfc51d3efc0075ffdce2cbda7"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/envs/nde.py",
+      "size": 13348,
+      "sha256": "21dc135d68f1e5e1434a03e86397897c929dbe47a950e888defd977e39e660f0"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/params.py",
+      "size": 115,
+      "sha256": "3a57b0883add4e545165cda54a0336d7022e71f5e2108c91c630ddea40d50098"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/__init__.py",
+      "size": 2668,
+      "sha256": "5647425635541f33e5a15d90d8bcb218a705c0802f87a72471dbf7216f28dc16"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/__init__.py",
+      "size": 1391,
+      "sha256": "deb9f348043884771a016303ff3bb3cee4bb52e893a0ebc8a4cf3b2ee807d38d"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/abstract_adversity.py",
+      "size": 4495,
+      "sha256": "955ab3e4786018e0122a43fee427c8c72a2ffc26a57cc9e00da242c5af29c0e4"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/adversity_builder.py",
+      "size": 1976,
+      "sha256": "81ad84bd46836dc580669db88e12baca7059c40c02751107c9093f363829e676"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/adversity_manager.py",
+      "size": 3162,
+      "sha256": "e015aee5621be92f2827207f6e8be02aaa1b14b89fb0f8724654ed591f458706"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/follower_adversity.py",
+      "size": 2867,
+      "sha256": "e5083242340586a82cb5b894d8039da9b0237c6911d78c2e1fd142f8800d7717"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/lane_change_abort_adversity.py",
+      "size": 7236,
+      "sha256": "b7ba89800ffde0bf551e99e71776ee67ec5eab68919e94dee9548f0e8745f71c"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/lane_change_adversity.py",
+      "size": 3219,
+      "sha256": "5795b6996a265081bc5ad6075526328613c7c86e31155d662e3288ef6a100411"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/leader_adversity.py",
+      "size": 3260,
+      "sha256": "72211c60f1bc117a29bea4c59d02917daa4964b99fd9bca206d3e889542a479a"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/merge_adversity.py",
+      "size": 9120,
+      "sha256": "6a945eb66213465b0f47046316189f15767815fff93a1013eba398e3cd7b3428"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/obs_processing.py",
+      "size": 1409,
+      "sha256": "35c58099c36d2bd0c3cc1bba2b403cfae206d96a63558083e1efe6182c363580"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/adversity/traffic_rule_adversity.py",
+      "size": 3413,
+      "sha256": "74f4411d7b835d59795d44505807c2925111efd0c27e7d50dc0ea8983f72d432"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/agents/__init__.py",
+      "size": 546,
+      "sha256": "689360736883c3b2d5e3b47b9a618fbc23acd7cea4a7b4363f604edb7fd81b30"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/agents/base.py",
+      "size": 279,
+      "sha256": "28135a0bc98de542ebb2f6875a1a0ee120e0891a0e7cf236f8bf11dcd37acf29"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/agents/vehicle.py",
+      "size": 8017,
+      "sha256": "c311c7e9afadc36a8f965cbcc0478f635d0190e87a3bc73dcd108f7fa12a8d17"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/agents/vru.py",
+      "size": 1680,
+      "sha256": "0bcd902f8ae4458d61b0610245fb6e828a372ab2244e4616e460538ae58c52ab"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/base/__init__.py",
+      "size": 198,
+      "sha256": "ece690cba8bd2143daca31623dbe21a5567e6fb241c36e39da2d0c68dde6ac32"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/base/nde_command.py",
+      "size": 1521,
+      "sha256": "d316e3d8b85205f278b94a3cb81f0a7616a834e0e5f10d272fa238f98991af09"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/base/types.py",
+      "size": 364,
+      "sha256": "7555d36108e1c79e4001b3c46710ef21e346ed97b89bf0de076d3da0cb8cfaf5"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/collision/__init__.py",
+      "size": 390,
+      "sha256": "7cac165d76564caa75c633f37c684363195f6cf405b7c295ecc2e13592bfac1c"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/collision/collision_check.py",
+      "size": 9123,
+      "sha256": "2ee850c9e6f2ae419a55668245c68dd99dd861ef638fcd56f293edc8d8cd0e9b"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/collision/collision_check_cy.pyx",
+      "size": 4413,
+      "sha256": "c01199fe169cfe1c4fefeabe91829f9e5947a1c2b046be33cece369181135a24"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/collision/collision_utils.py",
+      "size": 11645,
+      "sha256": "8d52fdfeca125e7ebb6d8b2f0c6403b2a858d3c219d918fe09a66d71977604eb"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/collision/constants.py",
+      "size": 2552,
+      "sha256": "6ae242a4db834fb9f01eefa8c92b56476130898fa00c986468e04d435eab49eb"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/geometry/__init__.py",
+      "size": 375,
+      "sha256": "8c70db361cfefe76ef2ce1961253219787010d4c12e83e18919b3ff52123d54e"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/geometry/distance_related.py",
+      "size": 1238,
+      "sha256": "55bb6a801856bd33ff43618fa05a0e9f155f44e9524a84f8c1cad6ca6061e5e6"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/geometry/geometry_utils_cy.pyx",
+      "size": 3365,
+      "sha256": "82053fc193ac7a1cb0eaa32de6553c1891ba05a3349cab7b8bcc78a46645fc3c"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/nade/__init__.py",
+      "size": 962,
+      "sha256": "0959e6bb61b124518ffd4a1c825836e7e78ac114376a02f12a514f5d9ddc2080"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/nade/avoidance.py",
+      "size": 30608,
+      "sha256": "88579782a0af98318ef44696eef43e6789b7abafce3b69e2baf1dbf5a029e9fc"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/nade/maneuver_challenge.py",
+      "size": 12382,
+      "sha256": "77325c519e34bd1d4e79ae4334e6f4a8ceae01d1c58883fda98175d6fa776d6d"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/nade/tools.py",
+      "size": 6050,
+      "sha256": "fe9e94c21867e700f2806dbbebfc173eeaf089dbf8a856fc87df0c70c330d95d"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/trajectory/__init__.py",
+      "size": 614,
+      "sha256": "47d65c8d8b0863d52696a98a4d4ed2398c297f0b3a024988f54735fde0dd5d3f"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/trajectory/trajectory_predictor.py",
+      "size": 20060,
+      "sha256": "4c4460d89016db8b8ce93172520ebeb10c1bfcd759b0f3067b88fb488558004f"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/utils/trajectory/trajectory_utils_cy.pyx",
+      "size": 3782,
+      "sha256": "88ff55f3eb1b0566e0a1b86bae56b2edd88e773e38317f80fde185cf92b2386b"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vehicle/__init__.py",
+      "size": 465,
+      "sha256": "9d356254141784875cdfbbe315ef0689cf71d56bcb0bd2b3bc2e9b736663fcfe"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vehicle/aggressive_controller.py",
+      "size": 226,
+      "sha256": "161390716472ce7db187180678f45956ce6dfd15b917870691f6991bfa9cc590"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vehicle/conflict_generation_model.py",
+      "size": 1726,
+      "sha256": "f8fb26aac690d3aefce4a62cc2877404b098854cc6b4b868bd73c8bddced37b6"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vehicle/emergency_vehicle_model.py",
+      "size": 1555,
+      "sha256": "6fe33f0c0cbc318fa535dff70f23bb7a18befbd7f44fd4863abb2fb51f30aff0"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vehicle/nde_controller.py",
+      "size": 12109,
+      "sha256": "f5bd5ed7f6ca1bd4b56fcdef7d1b7ccb5d44d747deae2f583f2e112ddc126f70"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vehicle/nde_decision_model.py",
+      "size": 3657,
+      "sha256": "aabd61abad0b78e5144257526d2958cc6a6aec9abfbd0deacb6f74176d5f6ad8"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vehicle/nde_ego_sensor.py",
+      "size": 7243,
+      "sha256": "8fa8cde8bf7ec1a39a27ea3d101abc7e57b4a9faa20303a296691a9fe656e655"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vehicle/nde_vehicle_factory.py",
+      "size": 1744,
+      "sha256": "5e604b097af891e855f4fd0a39d866937925093026059b1813a63affd07dc320"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vru/__init__.py",
+      "size": 301,
+      "sha256": "1d71a776d53e5ba50de65a2e51a4a2d9045c7dbc97175e6b98f02ee252c4e688"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vru/conflict_generation_model.py",
+      "size": 1568,
+      "sha256": "1075f8273168b912493f9545efe7c35b25caecac4d2252262b361b095b14484d"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vru/nde_controller.py",
+      "size": 5265,
+      "sha256": "f2e41c1a796af3f4586212a0a13028f51eddb5c937ff57960ef933a804e86cbb"
+    },
+    {
+      "path": "packages/terasim-nde-nade/terasim_nde_nade/vru/nde_vru_factory.py",
+      "size": 1589,
+      "sha256": "3075adf3df21844e341237d964873d760f9c9f3ed551f4a0d8cba10ef3f10c17"
+    },
+    {
+      "path": "packages/terasim-service/LICENSE",
+      "size": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "packages/terasim-service/README.md",
+      "size": 7250,
+      "sha256": "4fb22fed55bfeccd611e056c8cccad0d46ae870df81827a6e761b58977ddede9"
+    },
+    {
+      "path": "packages/terasim-service/pyproject.toml",
+      "size": 1193,
+      "sha256": "b8371716f454cbc9187d2642ea6332f9e8a3120916f01f8803a26c80e9490b57"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/__init__.py",
+      "size": 116,
+      "sha256": "b74c47e5052ffb526bbc14a25eabb455ddf7d418a62b164748fd1d37fc72d027"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/__main__.py",
+      "size": 263,
+      "sha256": "b2e293699e973ba9d8b822869e9d41d4d45964aa0aaf6af75f282b5284e036b4"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/api.py",
+      "size": 26441,
+      "sha256": "1a2afcab9e7c29c0629a1999a11dffd4230c51d3d84d33fd348be02accf82d57"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/constants.py",
+      "size": 567,
+      "sha256": "665c2b3ad9b69fd911e0c8dfe2567176453015a76a1af3b5a3e70f3025a8fbad"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/plugins/__init__.py",
+      "size": 190,
+      "sha256": "d94782941338e6e9f21afb064e402ad2bcdde31cc1ff3f9868a347bb44affc1c"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/plugins/base.py",
+      "size": 2560,
+      "sha256": "c7708ee33bd950c8ebd42baf6557756f04bb5cb79f1b9055cc1f904854a2ba3f"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/plugins/cosim.py",
+      "size": 45912,
+      "sha256": "36b989d94904eddfdc2645187eadf3834eb5a2028238efe596769c9a2a1021c8"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/plugins/dash_viz_app.py",
+      "size": 24392,
+      "sha256": "f7b151c1de5065c5be662be6a6664b8fff490b5bcce69e408e9fb50c569ea956"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/__init__.py",
+      "size": 710,
+      "sha256": "b6a474b398d05fc1ed62b819b7dd87d266a306e1451522455b6dfb22d3137a61"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/base.py",
+      "size": 6205,
+      "sha256": "c0b93a95c445f1ca538aef59358cb20c021d767a5f5de71f6ba968f3b93f340e"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/carla/__init__.py",
+      "size": 64,
+      "sha256": "ff9c17a355d5a7fcfdf6873d781ecd1d3c5b6311b9ea8a6f05b90eac51004e74"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/carla/cosim.py",
+      "size": 17927,
+      "sha256": "61f244404cfda4dacfd5f679400e6f79fed9de5f39be8578e78677d6cda6a045"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/carla/tools.py",
+      "size": 9995,
+      "sha256": "06beccceaf00194fabcebb2c7679b8da41966306f30f305c567cb9de5cb71238"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/Agent.py",
+      "size": 1717,
+      "sha256": "fdf544fc34fc22b226d2bc330a24ef53371c21a8b370e9c18cd3cae719468351"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/AgentCommand.py",
+      "size": 220,
+      "sha256": "d199cbe348e92a8297156ff41881c0004b6bd86779b911c5b32bff4ccbe55018"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/AgentDict.py",
+      "size": 335,
+      "sha256": "b95800f1cdc3e5cd28ebdf050ceaeea789e498c3dc4ca046a067e25cb27b5bc8"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/AgentState.py",
+      "size": 1686,
+      "sha256": "887dbe0998cf59997b56c04cf538a87ec3f9664c72be51173fbee731e6c52375"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/AgentStateDict.py",
+      "size": 335,
+      "sha256": "b95800f1cdc3e5cd28ebdf050ceaeea789e498c3dc4ca046a067e25cb27b5bc8"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/AgentStateSimplified.py",
+      "size": 1047,
+      "sha256": "a847bd534f2223d3db4d7dcf064ffaac550ec0749936b68518ea5c3b950a63a3"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/ConstructionZone.py",
+      "size": 279,
+      "sha256": "7092deca5b998c8c037b78e26e331d89faebee2238ed5860ccd24ef88f03c561"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/GeneralMsg.py",
+      "size": 214,
+      "sha256": "55285ec5501cb79451ce87c04dd1b6f228e57eead7f6af0ec0f660fc8688a146"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/Header.py",
+      "size": 207,
+      "sha256": "bcdbaa3f369ebfbaeaec0cd517a10b23bea7b2091e7c8bc0b78ffc2ec1cb391b"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/PlannedPath.py",
+      "size": 878,
+      "sha256": "e3d0bce208d2214db74bd670cae50a971939e038ea7e5b2f903183328405c972"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/SUMOSignal.py",
+      "size": 402,
+      "sha256": "7cbb4e0ab228f9a2ae457626fea2ee245ac9bfa715e8be1ded26db31ceb68e56"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/SUMOSignalDict.py",
+      "size": 414,
+      "sha256": "d561482a4f5f70cd3ad1e60915cab0095e76f9b2d1a56cdd3ba44ab4e7bc780a"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/SimulationState.py",
+      "size": 1127,
+      "sha256": "b7d422ebfcf226574b57f6ce5d339a037693e15cda30f3ef707eea6de2054a23"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/VehicleControl.py",
+      "size": 550,
+      "sha256": "05900f4fd400d0ad7fc0ac453bcadbdd097efdd1c4395c63c846ab41b0fc79df"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/VehiclePlanning.py",
+      "size": 796,
+      "sha256": "152bd4b2995538994a9e4c51fa25be4138db6d371437da7a00b77b2bc0e5fc57"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/VehicleState.py",
+      "size": 1497,
+      "sha256": "d3394609132d103d64ce614afcadff613034f2c5a908ffdafbf706fc71df87a6"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/messages/__init__.py",
+      "size": 496,
+      "sha256": "4933f73e56ac56a3b63748dc6c562f4d277b5faa1ee751d76b1341478acba221"
+    },
+    {
+      "path": "packages/terasim-service/terasim_service/utils/service.py",
+      "size": 1257,
+      "sha256": "a2226adf0962e26bc60804450b774dd216350ce317e6d3555288019205cd896a"
+    },
+    {
+      "path": "packages/terasim-vis/LICENSE.md",
+      "size": 1067,
+      "sha256": "6778692a16277fb34adcccbcd235250b684d910690aced3fa86a56cf78e6ab95"
+    },
+    {
+      "path": "packages/terasim-vis/README.md",
+      "size": 9196,
+      "sha256": "87a31fa398dea5dfcde55eb3b3a10470e3b09ecb0fe266531d46261e8665a182"
+    },
+    {
+      "path": "packages/terasim-vis/pyproject.toml",
+      "size": 702,
+      "sha256": "ab733dd7c014d568974629cb53d18c8e422731d951574bcf61e0fb3532277d0d"
+    },
+    {
+      "path": "packages/terasim-vis/terasim_vis/Additionals.py",
+      "size": 22922,
+      "sha256": "99b661d38324f07bdde05fb03fe7c9f97eaf9e6165978c8b065ff38c23826d8d"
+    },
+    {
+      "path": "packages/terasim-vis/terasim_vis/Net.py",
+      "size": 52513,
+      "sha256": "bbb841316e77e1915480faaf7df0dc7ccfae9960c001b3b3717278de201b18a5"
+    },
+    {
+      "path": "packages/terasim-vis/terasim_vis/Trajectory.py",
+      "size": 25600,
+      "sha256": "abe810702099fe3eaecd897e4e435a407e437571f4851911dc99f150918d98ff"
+    },
+    {
+      "path": "packages/terasim-vis/terasim_vis/Utils.py",
+      "size": 16880,
+      "sha256": "26ea6947d2c7fd0b44eb421ae04d27e75758aa074ee7563bd7cec7567d53d78c"
+    },
+    {
+      "path": "packages/terasim-vis/terasim_vis/__init__.py",
+      "size": 199,
+      "sha256": "374cb1b34737af85428489b7ef8fd6f7e17cbed9197cb4db35c66df8349f1136"
+    },
+    {
+      "path": "packages/terasim/LICENSE",
+      "size": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "packages/terasim/README.md",
+      "size": 6399,
+      "sha256": "8d445ebaae7323343519be2aa11a6e55dfb78c8665f51e45d349cb79b1d90f75"
+    },
+    {
+      "path": "packages/terasim/pyproject.toml",
+      "size": 2484,
+      "sha256": "9e7197c588fa8717a7bb5d6afe8888504f61d0d10f7e3813a9551d22579cd866"
+    },
+    {
+      "path": "packages/terasim/terasim/__init__.py",
+      "size": 191,
+      "sha256": "68b1887d26ceb67013c1fad70f37d657ec038ff5007eba2963e36da3683d42dc"
+    },
+    {
+      "path": "packages/terasim/terasim/agent/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/agent/agent.py",
+      "size": 6922,
+      "sha256": "4c0d883df391d57b40ab577793ec35340643fc80a262928501cac86e4e919370"
+    },
+    {
+      "path": "packages/terasim/terasim/agent/agent_controller.py",
+      "size": 2380,
+      "sha256": "98e8b8aaa24afbfb2a4ecbca15246a948b95735e2e9c5645671498712c652cd5"
+    },
+    {
+      "path": "packages/terasim/terasim/agent/agent_decision_model.py",
+      "size": 1078,
+      "sha256": "49353a78042ce72fded58cdd7775cff2c3459793081e012b18497cb659e11f54"
+    },
+    {
+      "path": "packages/terasim/terasim/agent/agent_sensor.py",
+      "size": 2693,
+      "sha256": "8f0581683349c13e8f9674ec5d2d7bec854c7b5539128c0d8e94d671550d5b81"
+    },
+    {
+      "path": "packages/terasim/terasim/configs.py",
+      "size": 22,
+      "sha256": "5f26eddac90165a98630d94bb8e5f5206fa1e2e231a940c600ef0c2065ab25a7"
+    },
+    {
+      "path": "packages/terasim/terasim/envs/__init__.py",
+      "size": 214,
+      "sha256": "06d958e04fe00250f230deb17f62f5e3337b2d2e53820c18557935b5776507c0"
+    },
+    {
+      "path": "packages/terasim/terasim/envs/base.py",
+      "size": 10900,
+      "sha256": "d77b8c7f9c4f56f369df476f04860a2ea65135630e01fb6eee4973831c5efa4e"
+    },
+    {
+      "path": "packages/terasim/terasim/envs/base_complete.py",
+      "size": 4863,
+      "sha256": "630373c4fd40790e4ef73ca97b8d760bb7764353b439a2cbc8338ddfc54396fa"
+    },
+    {
+      "path": "packages/terasim/terasim/envs/template.py",
+      "size": 3645,
+      "sha256": "5e23f7ba5708da05e68a5fcb87dc4164188a7ad5d322595598235d60057d3bfa"
+    },
+    {
+      "path": "packages/terasim/terasim/envs/template_complete.py",
+      "size": 5032,
+      "sha256": "0ad24bb32f0c16e8b538c76c91bdde1b1ce0a9683e5d315391c401febbaa3057"
+    },
+    {
+      "path": "packages/terasim/terasim/envs/template_traffic_light.py",
+      "size": 7174,
+      "sha256": "7d7fb7dfe6ec3f38af5de8e7e0fb33201f118277a1bb86597c741b4023400570"
+    },
+    {
+      "path": "packages/terasim/terasim/logger/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/logger/data_recorder_info_extractor.py",
+      "size": 17575,
+      "sha256": "a2589a623e7df02bcf77f26496ada89252e9ce2f94c8accfa3d8f9ee30d73d31"
+    },
+    {
+      "path": "packages/terasim/terasim/logger/infoextractor.py",
+      "size": 840,
+      "sha256": "a7becb6c47e392b7bea7088554cfde3aa25a28f67525a1bb3a2fd9129b927bf3"
+    },
+    {
+      "path": "packages/terasim/terasim/measure/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/measure/measure.py",
+      "size": 187,
+      "sha256": "5b963089714767d6b18a422cf64daf411cd9ef563f7dda21862be3cb6b1589f8"
+    },
+    {
+      "path": "packages/terasim/terasim/network/__init__.py",
+      "size": 35,
+      "sha256": "ae9e429333966441298e4572a0f0a367c2e59121a5b0ee072d0f247441d70727"
+    },
+    {
+      "path": "packages/terasim/terasim/network/trafficnet.py",
+      "size": 1025,
+      "sha256": "16169381ad3fae1fca4413184a2abcad8bb317a9ac28bb1a7aa030f6543a7788"
+    },
+    {
+      "path": "packages/terasim/terasim/overlay.py",
+      "size": 1025,
+      "sha256": "ec270f00c7021abe54422b5228297edd4f879812fbe11812b424149ba63c413b"
+    },
+    {
+      "path": "packages/terasim/terasim/params.py",
+      "size": 121,
+      "sha256": "a69cd9d46d44dac99732895ab8f745ba3dd4c2386a4d19031288fc18041b37fb"
+    },
+    {
+      "path": "packages/terasim/terasim/pipeline.py",
+      "size": 1900,
+      "sha256": "3dc589083f146b824024eb98eadb7dd7b45b42c2005a28e80c7e88a1d27d27bc"
+    },
+    {
+      "path": "packages/terasim/terasim/simulator.py",
+      "size": 43869,
+      "sha256": "5957544ae22a6d5cdefc0a76674f36bcbc803f436ac9b22dc17c59800ae24b4b"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/controllers/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/controllers/state_controller.py",
+      "size": 1290,
+      "sha256": "51dccbe6058fdf4db04ee30b3fbc6ba99a0fc823ba79fd7bf92da4c9670259da"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/decision_models/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/decision_models/dummy_state_decision_model.py",
+      "size": 827,
+      "sha256": "7cf5b4ce483e17f410fd1fcb61d9bf92ab2a984a2532d3f2a1c01e79f9671d9f"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/factories/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/factories/traffic_light_factory.py",
+      "size": 816,
+      "sha256": "32301f18b9858f9304366e4a86f371f7e232a6a883b9ef256c176a3672c05f4a"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/sensors/ego_state_sensor.py",
+      "size": 1225,
+      "sha256": "44882488c12ee3e2950e1fdbc04997401802996deaa5a2907d4c13619229d191"
+    },
+    {
+      "path": "packages/terasim/terasim/traffic_light/traffic_light.py",
+      "size": 1633,
+      "sha256": "d828f979b98628c9ea831d1747c72cf9b7e0af5aebb848cf49f1175d128fd778"
+    },
+    {
+      "path": "packages/terasim/terasim/utils.py",
+      "size": 19690,
+      "sha256": "2164c3ed53bbe4a9846f61e05f1205f368491350f2ca7bd653f196db8d676c36"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/__init__.py",
+      "size": 29,
+      "sha256": "b33dbcb48e9bebafd16887f84ef95bbb4a1813670fc047c79d2ede3884a3f690"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/controllers/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/controllers/high_efficiency_controller.py",
+      "size": 4506,
+      "sha256": "b11c19c8a0f356c03e14e7fb5495560bb25c4136f3a612556776409ac30bb529"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/controllers/sumo_move_controller.py",
+      "size": 2199,
+      "sha256": "abaad0e9d8b768b55a0f6e772a4a9e3264953028b1a50c2c60215f8a613aada2"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/decision_models/__init__.py",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/decision_models/dummy_setsumo_transform_decision_model.py",
+      "size": 740,
+      "sha256": "76c90aac5005df6efd9608f430a95192d373f08c13de7669a8ade7cb7bebd288"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/decision_models/highway_base_decision_model.py",
+      "size": 8992,
+      "sha256": "53182eebaa7235495294c15bb6ec68011c5d993f78fd58f2a2b530987a3c6cda"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/decision_models/idm_model.py",
+      "size": 14803,
+      "sha256": "c856846660c00044bf41672fb76bfe5c1b595c489af5343fa3596cacdf019d7f"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/decision_models/sumo_model.py",
+      "size": 431,
+      "sha256": "831c7778862f4ff2673049280900d9772ea007dda5c6ea75c93b9a14a44ab048"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/factories/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/factories/vehicle_factory.py",
+      "size": 750,
+      "sha256": "fc3bafb022f4f8674ce03abb090e89979e283342e9b1554664eae22039db45a0"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/sensors/__init__.py",
+      "size": 58,
+      "sha256": "ea184f163977c81430e3c278f0e9ea6e920e4e8b3d12f9c80398dd6d5ad40a39"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/sensors/ego.py",
+      "size": 2337,
+      "sha256": "f21bdf83d65b110bd1878e7a3e329a6110050f4780120be855f462f3c381c874"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/sensors/local.py",
+      "size": 3182,
+      "sha256": "cb7bc59544fb452fae94b38aea364550520a69247d1390cffe5c9312627a0885"
+    },
+    {
+      "path": "packages/terasim/terasim/vehicle/vehicle.py",
+      "size": 1795,
+      "sha256": "32cb9c2fbf979bcdbc6ae0d353f8f4b271eadae67ad0d7e1f133e347db3c54f6"
+    },
+    {
+      "path": "packages/terasim/terasim/vulnerable_road_user/controllers/sumo_move_controller.py",
+      "size": 1888,
+      "sha256": "bb2f97976a8b6240ecbda8906b5f59f86b85e659cee9c8a8688ea47d7ee680ac"
+    },
+    {
+      "path": "packages/terasim/terasim/vulnerable_road_user/decision_models/sumo_model.py",
+      "size": 344,
+      "sha256": "0d6498f0dfdb491b339a119a338a5e9f3e167d93f1eb4927fd1c7ee51d46b0bd"
+    },
+    {
+      "path": "packages/terasim/terasim/vulnerable_road_user/factories/vulnerable_road_user_factory.py",
+      "size": 543,
+      "sha256": "0f4a7b8fe1d9615e333d3be221545413c315eba1f7312f83e4828895a8c15198"
+    },
+    {
+      "path": "packages/terasim/terasim/vulnerable_road_user/sensors/ego.py",
+      "size": 2206,
+      "sha256": "c156d25c9da19cecc7ce3e34fbc77cd4b0ee021da89dc4664c06b7a0b13afb21"
+    },
+    {
+      "path": "packages/terasim/terasim/vulnerable_road_user/vulnerable_road_user.py",
+      "size": 2046,
+      "sha256": "39b8e5cae34ac47f0c1115e6cebf6f4be81d7983e49dc89a4d7f27a2706f0e38"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2284,
+      "sha256": "0841432577fd6618ec76f0e8b5d0917a91e895bd54e5109af7e37ea6c703eec0"
+    },
+    {
+      "path": "scripts/convert_terasim_to_cosmos.py",
+      "size": 3386,
+      "sha256": "b42e54a244e85c5a28a92e51b31cb62d5a64ce7f4cc768c52723a5469322b95d"
+    },
+    {
+      "path": "scripts/generate_experiments.py",
+      "size": 11904,
+      "sha256": "37f752ccc41c62fa984ea2cdbf9d914d7451395d4459ad15e320f12d5c651e6e"
+    },
+    {
+      "path": "scripts/run_experiments.py",
+      "size": 4603,
+      "sha256": "8c80be2d6689a937ff9d0e85fdf3896a14563ba71058521d76b483545731a307"
+    },
+    {
+      "path": "scripts/run_experiments_debug.py",
+      "size": 3501,
+      "sha256": "6e36bbfe786941de38b48ffff0fda1a8d3baa02d3d8d394cc59dc78c272b7bd0"
+    },
+    {
+      "path": "scripts/run_service.py",
+      "size": 459,
+      "sha256": "a6a308fcb2ee6e427d6dbaedfb3acac7996ca000965c32363699521c8de57487"
+    },
+    {
+      "path": "scripts/run_tests.sh",
+      "size": 5609,
+      "sha256": "cfd4c5045fe9a044aaabb97fc150356a639311b68f4999c7169ead96998180a4"
+    },
+    {
+      "path": "scripts/visualize_fcd.py",
+      "size": 17064,
+      "sha256": "704f5960a323db333fdf916ae007b65bb7367d3c05f911994101b5a46abd614a"
+    },
+    {
+      "path": "scripts/xodr_to_sumo_converter.py",
+      "size": 147225,
+      "sha256": "79e7b0fbb11de9abb3cf0855683c43209a65ea95f24688af35d42b92d8dde80a"
+    },
+    {
+      "path": "setup_environment.sh",
+      "size": 11075,
+      "sha256": "6b2b0523c62235ab78c617f3a1f7d2198489adb1ce133c274b6ae0b80fc6d81f"
+    },
+    {
+      "path": "tests/README.md",
+      "size": 5736,
+      "sha256": "d6502c5da9c273d843d8922aa56af644f4b5d73dce5f7ddf564ed71ef83e25d0"
+    },
+    {
+      "path": "tests/__init__.py",
+      "size": 192,
+      "sha256": "89094e528921d68dbcba4d3baa0586b0528d1e306cce0a7c10c57081a54adc59"
+    },
+    {
+      "path": "tests/conftest.py",
+      "size": 4563,
+      "sha256": "aa2e98eb8b85006ca2963850cc2401d55045ad8496663a54a8dc7c6eeffad4f6"
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "size": 806,
+      "sha256": "ce4216d842f782bc9e54e85b0c5164736be785a57c4360f55ec80fbd250539a5"
+    },
+    {
+      "path": "tests/test_core/__init__.py",
+      "size": 149,
+      "sha256": "6b9942921503f9eff463ea1c52db424249c547e69b8d190465f4e58dd81a46b6"
+    },
+    {
+      "path": "tests/test_core/test_physics.py",
+      "size": 843,
+      "sha256": "73af9f9d2a1f62c8969946d45ba638547d57c9d5ec800b23e7b8edb4fe2f860f"
+    },
+    {
+      "path": "tests/test_envgen/README.md",
+      "size": 4052,
+      "sha256": "d784a2bc0e8a9e74b4ea577bbe93bd7f50d766748e49e410f1225711d4d4a0e7"
+    },
+    {
+      "path": "tests/test_envgen/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/test_envgen/config.yaml",
+      "size": 539,
+      "sha256": "5bfadbec3d02dcf249e126f873429b8f07253f75212bd378f818393ed6482a84"
+    },
+    {
+      "path": "tests/test_envgen/test_corner_case_generator.py",
+      "size": 6730,
+      "sha256": "80c3ffb7bd5eecaf04d1bef1730d93ffe8b0b4cb2a72c35f7d8898ed256e64b1"
+    },
+    {
+      "path": "tests/test_envgen/test_find_map_through_route.py",
+      "size": 1896,
+      "sha256": "1a6676e3980f24e096ba3a9c7692afe298425ccd3a1f2892b9eaa9d498f40cb9"
+    },
+    {
+      "path": "tests/test_envgen/test_integrated_generator.py",
+      "size": 852,
+      "sha256": "45e561124505dc7674a7968819ff33f003cf6211e8284008df19746120b99fe3"
+    },
+    {
+      "path": "tests/test_envgen/test_map_converter.py",
+      "size": 433,
+      "sha256": "7c5586a91035b6220fde5142be79e1e87eb458a0b6ae47d0c8c6b853a5812f31"
+    },
+    {
+      "path": "tests/test_envgen/test_map_searcher.py",
+      "size": 6205,
+      "sha256": "98d662a0abc0c51c13ac32c90d46b4b629cc4bb525f8e4b311c3c86a86082161"
+    },
+    {
+      "path": "tests/test_envgen/test_match_google_map.py",
+      "size": 6168,
+      "sha256": "45717d75b578e62abd68ddd06d71dac678293ea4ffac762c9d2e3ddfbdd2dc8b"
+    },
+    {
+      "path": "tests/test_envgen/test_openscenario_converter.py",
+      "size": 3252,
+      "sha256": "ca6586b0ddd752c02f992a52b4800fd96286ee8d15541dd55bc4442950d3a7f4"
+    },
+    {
+      "path": "tests/test_envgen/test_openscenario_validator.py",
+      "size": 9468,
+      "sha256": "9816267a76bdab9b205b2529e8625321c564dd2d449b4ec9914fbf41b3d2232f"
+    },
+    {
+      "path": "tests/test_envgen/test_sumo_traj_generator.py",
+      "size": 884,
+      "sha256": "422231f7550fed4e92f7c2c2fcd416960873e9b466d98e8505b0e2879340f395"
+    },
+    {
+      "path": "tests/test_envgen/test_tomtom_traffic.py",
+      "size": 8015,
+      "sha256": "d51f6ac921c0dfa1aa88c8af61f8b7ed71f9a9644e885e956feb8cbe791c63ca"
+    },
+    {
+      "path": "tests/test_envgen/test_traffic_flow_generator.py",
+      "size": 455,
+      "sha256": "d0ffe91bb2e6d746252a44cf919bc0732e63f00d51890005bf2879083c05ad6b"
+    },
+    {
+      "path": "tests/test_envgen/test_visualizer.py",
+      "size": 13035,
+      "sha256": "0c1389e88024cd21950d9ccac74c1bd2821b65a2eb5444ce8c1cac5cd41b77bc"
+    },
+    {
+      "path": "tests/test_envgen/test_visualizer_new.py",
+      "size": 18218,
+      "sha256": "ccf72ed59fef9ac9682a2e0c2463d9b37820e1fa71c0bc75374b4f3a53db6a83"
+    },
+    {
+      "path": "tests/test_envgen/test_xodr_lanelet_converter.py",
+      "size": 1595,
+      "sha256": "56a6af7aaebc41ad6eac46dc1b708514718ef8d17527cd2ce89ec81095a22950"
+    },
+    {
+      "path": "tests/test_integration/__init__.py",
+      "size": 227,
+      "sha256": "be378ebee77c178a26b1e3c7fe818a0a38fad57ff964236d59371c3cd59be366"
+    },
+    {
+      "path": "tests/test_nde_nade/__init__.py",
+      "size": 217,
+      "sha256": "e4ac8fd47c7e6d7e733df17a80927e208d96ab38defb29a57b093efeddf83a40"
+    },
+    {
+      "path": "tests/test_service/__init__.py",
+      "size": 159,
+      "sha256": "323e7cd15fd54e90f06deaff076a41c855b7007474ee2e9336a1b164f2cebbfc"
+    },
+    {
+      "path": "video_extract.py",
+      "size": 2261,
+      "sha256": "acde3f89babea20e161ffa484aa9d40e536f22ec3a77ead01113a36c79f49f32"
+    }
+  ],
+  "deleted_tracked_paths": [
+    "batch_hdvideo.sh"
+  ],
+  "selected_artifact_paths": [
+    "CrashCase_HD_Video_rendered/crash_2023174894/report.yaml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/map.net.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/map.xodr",
+    "CrashCase_HD_Video_rendered/crash_2023174894/map.osm",
+    "CrashCase_HD_Video_rendered/crash_2023174894/initial.fcd.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/interpo.fcd.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/merged.fcd.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/vbd.fcd.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/final.fcd.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/traffic.fcd.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/traffic_extracted.fcd.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/final_bev.mp4",
+    "CrashCase_HD_Video_rendered/crash_2023174894/vbd.mp4",
+    "CrashCase_HD_Video_rendered/crash_2023174894/final_state.pkl",
+    "CrashCase_HD_Video_rendered/crash_2023174894/prevtraj.txt",
+    "CrashCase_HD_Video_rendered/crash_2023174894/vehicles.rou.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/trips.trips.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/simulation.sumocfg",
+    "CrashCase_HD_Video_rendered/crash_2023174894/map.poly.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/map.polycfg",
+    "CrashCase_HD_Video_rendered/crash_2023174894/map.sumocfg",
+    "CrashCase_HD_Video_rendered/crash_2023174894/map.rou.xml",
+    "CrashCase_HD_Video_rendered/crash_2023174894/metadata.json",
+    "CrashCase_HD_Video_rendered/crash_2023174894/sumo_visualization.png",
+    "CrashCase_HD_Video_rendered/crash_2023174894/crash_diagram.png",
+    "CrashCase_HD_Video_rendered/crash_2023174894/predicted_trajectory.png",
+    "CrashCase_HD_Video/crash_2023197392/report.yaml",
+    "CrashCase_HD_Video/crash_2023197392/map.net.xml",
+    "CrashCase_HD_Video/crash_2023197392/map.xodr",
+    "CrashCase_HD_Video/crash_2023197392/map.osm",
+    "CrashCase_HD_Video/crash_2023197392/initial.fcd.xml",
+    "CrashCase_HD_Video/crash_2023197392/interpo.fcd.xml",
+    "CrashCase_HD_Video/crash_2023197392/merged.fcd.xml",
+    "CrashCase_HD_Video/crash_2023197392/vbd.fcd.xml",
+    "CrashCase_HD_Video/crash_2023197392/final.fcd.xml",
+    "CrashCase_HD_Video/crash_2023197392/traffic.fcd.xml",
+    "CrashCase_HD_Video/crash_2023197392/traffic_extracted.fcd.xml",
+    "CrashCase_HD_Video/crash_2023197392/final_bev.mp4",
+    "CrashCase_HD_Video/crash_2023197392/vbd.mp4",
+    "CrashCase_HD_Video/crash_2023197392/final_state.pkl",
+    "CrashCase_HD_Video/crash_2023197392/prevtraj.txt",
+    "CrashCase_HD_Video/crash_2023197392/vehicles.rou.xml",
+    "CrashCase_HD_Video/crash_2023197392/trips.trips.xml",
+    "CrashCase_HD_Video/crash_2023197392/simulation.sumocfg",
+    "CrashCase_HD_Video/crash_2023197392/map.poly.xml",
+    "CrashCase_HD_Video/crash_2023197392/map.polycfg",
+    "CrashCase_HD_Video/crash_2023197392/map.sumocfg",
+    "CrashCase_HD_Video/crash_2023197392/map.rou.xml",
+    "CrashCase_HD_Video/crash_2023197392/metadata.json",
+    "CrashCase_HD_Video/crash_2023197392/sumo_visualization.png",
+    "CrashCase_HD_Video/crash_2023197392/crash_diagram.png",
+    "CrashCase_HD_Video/crash_2023197392/predicted_trajectory.png"
+  ],
+  "excluded": [
+    ".env and credentials",
+    "API response cache/",
+    "Python caches and egg-info",
+    "rebuildable Cython .c/.so products",
+    "other cases retained unchanged in TeraSim-Agent/TeraSim",
+    "render frame sequences, multiview intermediates, processing logs, preview.png"
+  ],
+  "source_status_preserved": " D batch_hdvideo.sh\n M scripts/convert_terasim_to_cosmos.py\n M video_extract.py\n"
+}

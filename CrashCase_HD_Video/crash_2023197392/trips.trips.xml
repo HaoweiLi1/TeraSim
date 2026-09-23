@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-19 10:24:41.888954 by Eclipse SUMO randomTrips.py 75d6a36da
+<configuration>
+    <net-file value="/home/haowei/Documents/TeraSim-Agent/CrashReport/crash_2023197392/map.net.xml"/>
+    <output-trip-file value="/home/haowei/Documents/TeraSim-Agent/CrashReport/crash_2023197392/trips.trips.xml"/>
+    <route-file value="/home/haowei/Documents/TeraSim-Agent/CrashReport/crash_2023197392/vehicles.rou.xml"/>
+    <prefix value="vehicle"/>
+    <vehicle-class value="passenger"/>
+    <length value="True"/>
+    <lanes value="True"/>
+    <speed-exponent value="3.0"/>
+    <fringe-speed-exponent value="3.0"/>
+    <fringe-factor value="50"/>
+    <allow-fringe value="True"/>
+    <seed value="2047"/>
+    <random value="True"/>
+    <validate value="True"/>
+    <end value="60.0"/>
+    <period value="1.0"/>
+</configuration>
+-->
+
+<!-- generated on 2025-10-19 10:24:41 by Eclipse SUMO duarouter Version 1.23.1
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/haowei/Documents/TeraSim-Agent/CrashReport/crash_2023197392/map.net.xml"/>
+        <route-files value="/home/haowei/Documents/TeraSim-Agent/CrashReport/crash_2023197392/trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/haowei/Documents/TeraSim-Agent/CrashReport/crash_2023197392/trips.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="60.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="vehicle_passenger" vClass="passenger"/>
+    <trip id="vehicle0" type="vehicle_passenger" depart="0.00" from="411628887" to="-411628887"/>
+    <trip id="vehicle1" type="vehicle_passenger" depart="1.00" from="-8727105" to="8727105"/>
+    <trip id="vehicle2" type="vehicle_passenger" depart="2.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle3" type="vehicle_passenger" depart="3.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle4" type="vehicle_passenger" depart="4.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle5" type="vehicle_passenger" depart="5.00" from="8733385" to="-441448233"/>
+    <trip id="vehicle6" type="vehicle_passenger" depart="6.00" from="-30839416#1" to="8727105"/>
+    <trip id="vehicle7" type="vehicle_passenger" depart="7.00" from="-8727105" to="8727105"/>
+    <trip id="vehicle8" type="vehicle_passenger" depart="8.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle9" type="vehicle_passenger" depart="9.00" from="30839433" to="-441448233"/>
+    <trip id="vehicle10" type="vehicle_passenger" depart="10.00" from="441448233" to="-30839433"/>
+    <trip id="vehicle11" type="vehicle_passenger" depart="11.00" from="-8727105" to="441448233"/>
+    <trip id="vehicle12" type="vehicle_passenger" depart="12.00" from="411628887" to="8727105"/>
+    <trip id="vehicle13" type="vehicle_passenger" depart="13.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle14" type="vehicle_passenger" depart="14.00" from="411628887" to="-441448233"/>
+    <trip id="vehicle15" type="vehicle_passenger" depart="15.00" from="441448233" to="-411628887"/>
+    <trip id="vehicle16" type="vehicle_passenger" depart="16.00" from="441448233" to="-30839433"/>
+    <trip id="vehicle17" type="vehicle_passenger" depart="17.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle18" type="vehicle_passenger" depart="18.00" from="-485230986" to="8727105"/>
+    <trip id="vehicle19" type="vehicle_passenger" depart="19.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle20" type="vehicle_passenger" depart="20.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle21" type="vehicle_passenger" depart="21.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle22" type="vehicle_passenger" depart="22.00" from="441448233" to="8727105"/>
+    <trip id="vehicle23" type="vehicle_passenger" depart="23.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle24" type="vehicle_passenger" depart="24.00" from="-30839416#1" to="8727105"/>
+    <trip id="vehicle25" type="vehicle_passenger" depart="25.00" from="-8727105" to="-441448233"/>
+    <trip id="vehicle26" type="vehicle_passenger" depart="26.00" from="411628887" to="8727105"/>
+    <trip id="vehicle27" type="vehicle_passenger" depart="27.00" from="-8727105" to="8727105"/>
+    <trip id="vehicle28" type="vehicle_passenger" depart="28.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle29" type="vehicle_passenger" depart="29.00" from="441448233" to="8727105"/>
+    <trip id="vehicle30" type="vehicle_passenger" depart="30.00" from="441448233" to="8727105"/>
+    <trip id="vehicle31" type="vehicle_passenger" depart="31.00" from="-485230986" to="-441448233"/>
+    <trip id="vehicle32" type="vehicle_passenger" depart="32.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle33" type="vehicle_passenger" depart="33.00" from="30839433" to="-8733385"/>
+    <trip id="vehicle34" type="vehicle_passenger" depart="34.00" from="411628887" to="-441448233"/>
+    <trip id="vehicle35" type="vehicle_passenger" depart="35.00" from="-30839416#1" to="8727105"/>
+    <trip id="vehicle36" type="vehicle_passenger" depart="36.00" from="441448233" to="485230986"/>
+    <trip id="vehicle37" type="vehicle_passenger" depart="37.00" from="-485230986" to="-441448233"/>
+    <trip id="vehicle38" type="vehicle_passenger" depart="38.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle39" type="vehicle_passenger" depart="39.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle40" type="vehicle_passenger" depart="40.00" from="441448233" to="8727105"/>
+    <trip id="vehicle41" type="vehicle_passenger" depart="41.00" from="441448233" to="8727105"/>
+    <trip id="vehicle42" type="vehicle_passenger" depart="42.00" from="-8727105" to="8727105"/>
+    <trip id="vehicle43" type="vehicle_passenger" depart="43.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle44" type="vehicle_passenger" depart="44.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle45" type="vehicle_passenger" depart="45.00" from="441448233" to="8727105"/>
+    <trip id="vehicle46" type="vehicle_passenger" depart="46.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle47" type="vehicle_passenger" depart="47.00" from="-8727105" to="485230986"/>
+    <trip id="vehicle48" type="vehicle_passenger" depart="48.00" from="411628887" to="-441448233"/>
+    <trip id="vehicle49" type="vehicle_passenger" depart="49.00" from="441448233" to="8727105"/>
+    <trip id="vehicle50" type="vehicle_passenger" depart="50.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle51" type="vehicle_passenger" depart="51.00" from="-30839416#1" to="-441448233"/>
+    <trip id="vehicle52" type="vehicle_passenger" depart="52.00" from="222821829#0" to="-441448233"/>
+    <trip id="vehicle53" type="vehicle_passenger" depart="53.00" from="30839433" to="8727105"/>
+    <trip id="vehicle54" type="vehicle_passenger" depart="54.00" from="441448233" to="-30839433"/>
+    <trip id="vehicle55" type="vehicle_passenger" depart="55.00" from="441448233" to="-441448233"/>
+    <trip id="vehicle56" type="vehicle_passenger" depart="56.00" from="-8727105" to="8727105"/>
+    <trip id="vehicle57" type="vehicle_passenger" depart="57.00" from="30839433" to="-441448233"/>
+    <trip id="vehicle58" type="vehicle_passenger" depart="58.00" from="441448233" to="8727105"/>
+    <trip id="vehicle59" type="vehicle_passenger" depart="59.00" from="-485230986" to="-441448233"/>
+</routes>

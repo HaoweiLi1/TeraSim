@@ -1,0 +1,183 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="vehicle_passenger" vClass="passenger" />
+<route id="av_route" edges="8733293#3 -8733293#3 -8733293#2 -8733293#1 -8733293#0" /><vehicle id="vehicle0" type="vehicle_passenger" depart="0.00">
+        <route edges="-8763978#3 -8763978#2 -8763978#1 8733293#2 8733293#3 -8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle1" type="vehicle_passenger" depart="1.00">
+        <route edges="-1195214685#1 -8733293#2 8763978#1 8763978#2 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle2" type="vehicle_passenger" depart="2.00">
+        <route edges="8770670#0 8733293#1 8763978#1 8767648#0 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle3" type="vehicle_passenger" depart="3.00">
+        <route edges="8770670#0 -8733293#0" />
+    </vehicle>
+    <vehicle id="vehicle4" type="vehicle_passenger" depart="4.00">
+        <route edges="-8763978#3 -8767639 -8770670#1 -8733293#0" />
+    </vehicle>
+    <vehicle id="vehicle5" type="vehicle_passenger" depart="5.00">
+        <route edges="8770670#0 8770670#1 8767639 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle6" type="vehicle_passenger" depart="6.00">
+        <route edges="-8733293#3 -8733293#2 8763978#1 8763978#2 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle7" type="vehicle_passenger" depart="7.00">
+        <route edges="8763978#0 8733293#2 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle8" type="vehicle_passenger" depart="8.00">
+        <route edges="8770670#0 8733293#1 8733293#2 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle9" type="vehicle_passenger" depart="9.00">
+        <route edges="8770670#0 8770670#1 8767639 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle10" type="vehicle_passenger" depart="10.00">
+        <route edges="-1195214685#1 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle11" type="vehicle_passenger" depart="11.00">
+        <route edges="8763978#0 8733293#2 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle12" type="vehicle_passenger" depart="12.00">
+        <route edges="8733293#0 8733293#1 8763978#1 8767648#0 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle13" type="vehicle_passenger" depart="13.00">
+        <route edges="-8733293#3 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle14" type="vehicle_passenger" depart="14.00">
+        <route edges="8733293#0 8733293#1 8763978#1 8767648#0 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle15" type="vehicle_passenger" depart="15.00">
+        <route edges="-8763978#3 -8763978#2 -8763978#1 8733293#2 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle16" type="vehicle_passenger" depart="16.00">
+        <route edges="-8733293#3 -8733293#2 -8733293#1 -8733293#0" />
+    </vehicle>
+    <vehicle id="vehicle17" type="vehicle_passenger" depart="17.00">
+        <route edges="8733293#0 8733293#1 -8763978#0" />
+    </vehicle>
+    <vehicle id="vehicle18" type="vehicle_passenger" depart="18.00">
+        <route edges="-8763978#3 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle19" type="vehicle_passenger" depart="19.00">
+        <route edges="8733293#0 8733293#1 8733293#2 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle20" type="vehicle_passenger" depart="20.00">
+        <route edges="-8763978#3 -8763978#2 -8763978#1 8733293#2 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle21" type="vehicle_passenger" depart="21.00">
+        <route edges="-8767648#1 1195214685#0 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle22" type="vehicle_passenger" depart="22.00">
+        <route edges="-8767648#1 -8767648#0 -8763978#1 -8733293#1 -8770670#0" />
+    </vehicle>
+    <vehicle id="vehicle23" type="vehicle_passenger" depart="23.00">
+        <route edges="8733293#0 8733293#1 8763978#1 8767648#0 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle24" type="vehicle_passenger" depart="24.00">
+        <route edges="-8733293#3 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle25" type="vehicle_passenger" depart="25.00">
+        <route edges="8733293#0 8733293#1 8733293#2 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle26" type="vehicle_passenger" depart="26.00">
+        <route edges="-8733293#3 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle27" type="vehicle_passenger" depart="27.00">
+        <route edges="-1195214685#1 -8733293#2 8763978#1 8763978#2 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle28" type="vehicle_passenger" depart="28.00">
+        <route edges="8770670#1 8767639 -8763978#2 8767648#0 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle29" type="vehicle_passenger" depart="29.00">
+        <route edges="-8767648#1 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle30" type="vehicle_passenger" depart="30.00">
+        <route edges="8763978#0 -8763978#0" />
+    </vehicle>
+    <vehicle id="vehicle31" type="vehicle_passenger" depart="31.00">
+        <route edges="-1195214685#1 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle32" type="vehicle_passenger" depart="32.00">
+        <route edges="-1195214685#1 -8733293#2 -8733293#1 -8770670#0" />
+    </vehicle>
+    <vehicle id="vehicle33" type="vehicle_passenger" depart="33.00">
+        <route edges="-8767648#1 -8767648#0 -8763978#1 -8733293#1 -8770670#0" />
+    </vehicle>
+    <vehicle id="vehicle34" type="vehicle_passenger" depart="34.00">
+        <route edges="8770670#0 8770670#1 8767639 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle35" type="vehicle_passenger" depart="35.00">
+        <route edges="8733293#0 8733293#1 8733293#2 -1195214685#0" />
+    </vehicle>
+    <vehicle id="vehicle36" type="vehicle_passenger" depart="36.00">
+        <route edges="8770670#0 8733293#1 8733293#2 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle37" type="vehicle_passenger" depart="37.00">
+        <route edges="-8763978#3 -8763978#2 -8763978#1 8733293#2 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle38" type="vehicle_passenger" depart="38.00">
+        <route edges="-1195214685#1 -8733293#2 -8733293#1 8770670#1 8767639" />
+    </vehicle>
+    <vehicle id="vehicle39" type="vehicle_passenger" depart="39.00">
+        <route edges="8733293#0 8733293#1 8733293#2 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle40" type="vehicle_passenger" depart="40.00">
+        <route edges="8770670#0 8733293#1 -8763978#0" />
+    </vehicle>
+    <vehicle id="vehicle41" type="vehicle_passenger" depart="41.00">
+        <route edges="8763978#0 -8763978#0" />
+    </vehicle>
+    <vehicle id="vehicle42" type="vehicle_passenger" depart="42.00">
+        <route edges="-1195214685#1 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle43" type="vehicle_passenger" depart="43.00">
+        <route edges="-1195214685#1 -1195214685#0 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle44" type="vehicle_passenger" depart="44.00">
+        <route edges="8770670#0 8733293#1 8733293#2 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle45" type="vehicle_passenger" depart="45.00">
+        <route edges="8770670#0 8770670#1 8767639 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle46" type="vehicle_passenger" depart="46.00">
+        <route edges="8733293#0 8770670#1 8767639 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle47" type="vehicle_passenger" depart="47.00">
+        <route edges="-1195214685#1 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle48" type="vehicle_passenger" depart="48.00">
+        <route edges="-8763978#3 -8763978#2 -8763978#1 8733293#2 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle49" type="vehicle_passenger" depart="49.00">
+        <route edges="-8733293#3 -8733293#2 -8733293#1 -8770670#0" />
+    </vehicle>
+    <vehicle id="vehicle50" type="vehicle_passenger" depart="50.00">
+        <route edges="-8733293#3 8733293#3" />
+    </vehicle>
+    <vehicle id="vehicle51" type="vehicle_passenger" depart="51.00">
+        <route edges="-8733293#3 1195214685#1" />
+    </vehicle>
+    <vehicle id="vehicle52" type="vehicle_passenger" depart="52.00">
+        <route edges="-1195214685#1 -8733293#2 -8733293#1 -8770670#0" />
+    </vehicle>
+    <vehicle id="vehicle53" type="vehicle_passenger" depart="53.00">
+        <route edges="-1195214685#1 -8733293#2 -8733293#1 -8770670#0" />
+    </vehicle>
+    <vehicle id="vehicle54" type="vehicle_passenger" depart="54.00">
+        <route edges="-8763978#3 -8767639 -8770670#1 -8770670#0" />
+    </vehicle>
+    <vehicle id="vehicle55" type="vehicle_passenger" depart="55.00">
+        <route edges="-1195214685#1 -1195214685#0 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle56" type="vehicle_passenger" depart="56.00">
+        <route edges="-8763978#0 8763978#0 -8733293#1 -8733293#0" />
+    </vehicle>
+    <vehicle id="vehicle57" type="vehicle_passenger" depart="57.00">
+        <route edges="-8763978#3 -8763978#2 8767648#0 8767648#1" />
+    </vehicle>
+    <vehicle id="vehicle58" type="vehicle_passenger" depart="58.00">
+        <route edges="8733293#0 8770670#1 8767639 8763978#3" />
+    </vehicle>
+    <vehicle id="vehicle59" type="vehicle_passenger" depart="59.00">
+        <route edges="8770670#0 8733293#1 8733293#2 8733293#3" />
+    </vehicle>
+</routes>

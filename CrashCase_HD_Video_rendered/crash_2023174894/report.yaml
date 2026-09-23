@@ -1,0 +1,66 @@
+accident_id: '2023174894'
+crash_type: Single Motor Vehicle
+accident_time: 08/27/2023 14:30
+accident_location:
+  latitude: '42.3595645655316'
+  longitude: '-82.987672976974'
+  county: 82 - Wayne
+  city_township: 99 - Detroit
+  details:
+    distance_direction: 50 Feet S
+    full_primary_road: HOLCOMB ST
+    full_intersecting_road: AGNES ST
+  SUMO_LOCATION:
+    X: '148.18'
+    Y: '151.34'
+  area: NON-FRWY Straight Roadway
+  sumo_lane: 2
+  sumo_lane_method: bidirectional
+  sumo_lane_candidates:
+    bidirectional:
+    - 2
+    incoming:
+    - 2
+accident_weather:
+  weather: Clear
+  light: Daylight
+  road_surface_condition: Dry
+traffic_environment:
+  traffic_control: None
+  total_lanes: '01'
+  speed_limit: ''
+vehicle_information:
+  unit_01:
+    type: MV
+    direction: ''
+    action_prior: Going Straight Ahead
+    sequence_of_events:
+    - First: 17 - Motor Veh in Transport
+    driver_injury: null
+    passenger_injuries: []
+  unit_02:
+    type: B
+    direction: ''
+    action_prior: Going Straight Ahead
+    sequence_of_events:
+    - First: 17 - Motor Veh in Transport
+    driver_injury: C
+    passenger_injuries: []
+accident_description: UNIT 2 WAS TRAVELING S/B ON HOLCOMB WHEN HE WAS STUCK BUT UNIT
+  1 WHO WAS TRAVELING S/B ON HOLCOMB. UNIT 2 WAS UNABLE TO GIVE DESCRIPTION OF VEHICLE
+  THAT STRUCK HIM
+collision_evaluation:
+  predicted_crash_type: Single Motor Vehicle
+  crash_type_explanation: Collision involves bicycle or pedestrian
+  crash_type_consistent: true
+  predicted_injury_level: Minor
+  injury_level_consistent: true
+  overall_consistent: true
+  min_distance_m: 2.972
+  collision_occurred: true
+  unit1:
+    crash_type: Single Motor Vehicle
+    injury_level: No Injury
+  unit2:
+    crash_type: Single Motor Vehicle
+    injury_level: Minor

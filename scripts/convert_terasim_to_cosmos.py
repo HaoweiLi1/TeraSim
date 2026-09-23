@@ -5,17 +5,20 @@ import argparse
 from terasim_cosmos import TeraSimToCosmosConverter
 
 
+DEFAULT_CASE_DIR = Path(__file__).resolve().parents[1] / "CrashCase_HD_Video" / "crash_2023197392"
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Convert TeraSim simulation data to Cosmos-Drive compatible format"
     )
 
     # Required parameters
-    parser.add_argument("--path_to_output", type=Path, default=Path("/home/haowei/Documents/TeraSim/CrashCase_HD_Video/crash_2023197392/hdvideo"),
+    parser.add_argument("--path_to_output", type=Path, default=DEFAULT_CASE_DIR / "hdvideo",
                         help="Output directory path")
-    parser.add_argument("--path_to_fcd", type=Path, default=Path("/home/haowei/Documents/TeraSim/CrashCase_HD_Video/crash_2023197392/final.fcd.xml"),
+    parser.add_argument("--path_to_fcd", type=Path, default=DEFAULT_CASE_DIR / "final.fcd.xml",
                         help="Path to FCD (Floating Car Data) XML file")
-    parser.add_argument("--path_to_map", type=Path, default=Path("/home/haowei/Documents/TeraSim/CrashCase_HD_Video/crash_2023197392/map.net.xml"),
+    parser.add_argument("--path_to_map", type=Path, default=DEFAULT_CASE_DIR / "map.net.xml",
                         help="Path to SUMO network map XML file")
     parser.add_argument("--time_start", type=float, default=1.1,
                         help="Start time in seconds")

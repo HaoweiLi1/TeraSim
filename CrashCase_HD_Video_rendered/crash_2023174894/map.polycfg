@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<configuration>
+    <input>
+        <poly-file value="map.poly.xml"/>
+    </input>
+</configuration>

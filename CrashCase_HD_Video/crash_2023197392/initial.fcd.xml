@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.0">
+        <vehicle id="vehicle0" x="158.18" y="139.02" angle="271.10" type="vehicle_passenger" speed="4.50" acceleration="0.00" pos="64.64" lane="-222784529#2_0" slope="0.00"/>
+        <vehicle id="pedestrian1" x="119.74" y="141.51" angle="90.00" type="pedestrian" speed="3.00" acceleration="0.00" pos="5.59" lane="-222784529#0_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.0">
+        <vehicle id="vehicle0" x="153.71" y="139.23" angle="271.10" type="vehicle_passenger" speed="4.50" acceleration="0.00" pos="69.11" lane="-222784529#2_0" slope="0.00"/>
+        <vehicle id="pedestrian1" x="122.74" y="141.51" angle="90.00" type="pedestrian" speed="3.00" acceleration="0.00" pos="2.59" lane="-222784529#0_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.0">
+        <vehicle id="vehicle0" x="149.18" y="139.19" angle="271.10" type="vehicle_passenger" speed="4.50" acceleration="0.00" pos="73.64" lane="-222784529#2_0" slope="0.00"/>
+        <vehicle id="pedestrian1" x="125.74" y="141.51" angle="90.00" type="pedestrian" speed="3.00" acceleration="0.00" pos="0.00" lane="-30839416#0_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.0">
+        <vehicle id="vehicle0" x="144.68" y="139.26" angle="271.10" type="vehicle_passenger" speed="4.50" acceleration="0.00" pos="78.14" lane="-222784529#2_0" slope="0.00"/>
+        <vehicle id="pedestrian1" x="128.74" y="141.51" angle="90.00" type="pedestrian" speed="3.00" acceleration="0.00" pos="0.00" lane="-30839416#0_0" slope="0.00"/>
+    </timestep>
+    <timestep time="4.0">
+        <vehicle id="vehicle0" x="140.18" y="139.36" angle="271.50" type="vehicle_passenger" speed="4.50" acceleration="0.00" pos="65.20" lane="30839416#0_0" slope="0.00"/>
+        <vehicle id="pedestrian1" x="131.74" y="141.51" angle="90.00" type="pedestrian" speed="3.00" acceleration="0.00" pos="0.00" lane="-30839416#0_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.0">
+        <vehicle id="vehicle0" x="136.01" y="140.55" angle="302.30" type="vehicle_passenger" speed="4.50" acceleration="0.00" pos="65.20" lane="30839416#0_0" slope="0.00"/>
+        <vehicle id="pedestrian1" x="134.74" y="141.51" angle="90.00" type="pedestrian" speed="3.00" acceleration="0.00" pos="0.00" lane="-30839416#0_0" slope="0.00"/>
+    </timestep>
+</fcd-export>
