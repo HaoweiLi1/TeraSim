@@ -1,8 +1,7 @@
 {
   "repository": "TeraSim",
-  "source_side": "inner",
   "source_base_commit": "9e5a0e008b620ec3b5977fb0bbd33c0e4b3060bf",
-  "branch": "archive/20260923-inner",
+  "branch": "main",
   "files": [
     {
       "path": ".claude/agents/map-comparison-analyzer.md",
@@ -2625,5 +2624,6 @@
     "other cases retained unchanged in TeraSim-Agent/TeraSim",
     "render frame sequences, multiview intermediates, processing logs, preview.png"
   ],
-  "source_status_preserved": " D batch_hdvideo.sh\n M scripts/convert_terasim_to_cosmos.py\n M video_extract.py\n"
+  "source_location": "TeraSim-Agent/TeraSim",
+  "source_status_at_capture": " D batch_hdvideo.sh\n M scripts/convert_terasim_to_cosmos.py\n M video_extract.py\n"
 }
